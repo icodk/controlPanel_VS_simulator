@@ -42,6 +42,7 @@ extern "C" {
         , T_SUB_MENU
         , T_NETWORK
         , T_SYSTEM
+        , T_INFO
 
 
 	} text_ndx_t;

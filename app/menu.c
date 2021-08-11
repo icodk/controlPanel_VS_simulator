@@ -142,18 +142,36 @@ static void draw_event_cb(lv_event_t* e)
         lv_draw_rect(&sw_area, dsc->clip_area, &rect_dsc);
     }
 }
+//----------------------------------------
+static void displayInfo(void) {
+
+
+}
+//----------------------------------------
 
 static void change_event_cb(lv_event_t* e)
 {
     lv_obj_t* obj = lv_event_get_target(e);
     uint16_t col;
     uint16_t row;
+    void (*fncPtr)(void);
     lv_table_get_selected_cell(obj, &row, &col);
-    if (currentMenu[row+1].menuItemType == MENU_ITEM_TYPE_SUB_MENU) {
-        currentMenu = currentMenu[row+1].menuItemPntr;
-        lv_obj_t* win = get_main_win();
-        menuDraw(win);
+    switch (currentMenu[row + 1].menuItemType ) {
+    case  MENU_ITEM_TYPE_SUB_MENU:
+            currentMenu = currentMenu[row + 1].menuItemPntr;
+            lv_obj_t* win = get_main_win();
+            menuDraw(win);
+        break;
+    case  MENU_ITEM_TYPE_INFO_VERSION:
+       /* fncPtr = (void (*)(void))currentMenu[row + 1].menuItemPntr;
+        (*fncPtr)();*/
+        displayInfo();
+        break;
+    default:
+        break;
     }
+
+
     
     //bool chk = lv_table_has_cell_ctrl(obj, row, 0, LV_TABLE_CELL_CTRL_CUSTOM_1);
     //if (chk) lv_table_clear_cell_ctrl(obj, row, 0, LV_TABLE_CELL_CTRL_CUSTOM_1);

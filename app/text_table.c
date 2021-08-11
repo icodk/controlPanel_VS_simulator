@@ -55,7 +55,7 @@ static const  char *  danish[] = {
     ,"A sub menu"
     ,"Network"
     ,"System"
-
+    ,"Info"
     
 
 };
@@ -78,6 +78,7 @@ static const  char *  english[] = {
     ,"A sub menu"
     ,"Network"
     ,"System"
+    ,"Info"
 
 };
 
