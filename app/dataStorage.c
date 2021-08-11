@@ -7,6 +7,11 @@
 counter_t counter[COUNTER_COUNT];
 int32_t current_count[COUNTER_COUNT];
 
+static int32_t  ctl_param_table[] = {
+        0	,	// 	0		CONTROL_PARMAS_START,
+        0	,	// 	1		CV_CONTROL_MODE_CH1,
+};
+
 
 //---------------------------------
 

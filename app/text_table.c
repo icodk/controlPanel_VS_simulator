@@ -47,6 +47,17 @@ static const  char *  danish[] = {
     ,"Param"
     ,"Process"
     ,"Menu"
+    ,"Main Menu"
+
+    ,"Decimal no."
+    ,"String Param"
+    ,"int param"
+    ,"A sub menu"
+    ,"Network"
+    ,"System"
+
+    
+
 };
 //========== ENGLISH============
 static const  char *  english[] = {
@@ -60,6 +71,14 @@ static const  char *  english[] = {
     ,"Param"
     ,"Process"
     ,"Menu"
+    ,"Main Menu"
+    ,"Decimal no."
+    ,"String Param"
+    ,"int param"
+    ,"A sub menu"
+    ,"Network"
+    ,"System"
+
 };
 
 
