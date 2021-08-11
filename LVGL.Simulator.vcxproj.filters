@@ -1,0 +1,3176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="lvgl">
+      <UniqueIdentifier>{e3eab252-e988-4523-96ae-c0d4b4532e51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\.github">
+      <UniqueIdentifier>{a5e92c75-c6b2-4721-a4b4-b199d8ca7ea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\.github\ISSUE_TEMPLATE">
+      <UniqueIdentifier>{290fce55-2e67-4b31-90c5-8afd6e670844}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\.github\workflows">
+      <UniqueIdentifier>{398fd86a-4903-4658-b93a-f9d96b13ae1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\docs">
+      <UniqueIdentifier>{396f253a-7b9d-42c6-81bb-2f3f309ca62a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\docs\get-started">
+      <UniqueIdentifier>{acc90c11-870c-412a-b0b1-7f273450bc51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\docs\intro">
+      <UniqueIdentifier>{04c55280-2781-4aa7-9c22-af49ac6679e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\docs\layouts">
+      <UniqueIdentifier>{677d1cf4-1622-4435-86f3-e2328ba2ce86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\docs\misc">
+      <UniqueIdentifier>{9988812f-24a9-44e9-988f-5f052bc7cfc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\docs\overview">
+      <UniqueIdentifier>{8d7edaa7-c9b3-4df9-b002-c04770b59b3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\docs\porting">
+      <UniqueIdentifier>{beeadafa-f98e-48e6-a871-80d27b6ee156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\docs\widgets">
+      <UniqueIdentifier>{326057dc-934d-41b4-a786-1ada962c0023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\docs\widgets\core">
+      <UniqueIdentifier>{935288dc-48ab-4565-b90a-f5ffd6ef2e0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\docs\widgets\extra">
+      <UniqueIdentifier>{23f514e5-528c-4b80-9f65-7ce1b1014a88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\docs\_ext">
+      <UniqueIdentifier>{0b745ff6-ee79-454b-a485-1dd499c10132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\docs\_static">
+      <UniqueIdentifier>{7f3223d9-0642-4703-a0af-13f85164e0be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\docs\_static\css">
+      <UniqueIdentifier>{92799da0-bd5f-4762-8fe5-7731568836c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\docs\_static\img">
+      <UniqueIdentifier>{8a6187e2-184b-4f37-9b0a-58a5d5eee53a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\docs\_templates">
+      <UniqueIdentifier>{3f8e392c-d4dd-4365-8d63-2f4219be079f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples">
+      <UniqueIdentifier>{5f03a3d7-f108-43d6-9a3f-9024a4b010ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\anim">
+      <UniqueIdentifier>{07874176-a3eb-4665-8485-4d76780f4ed3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\arduino">
+      <UniqueIdentifier>{b6ad5500-58be-4e4c-8b68-eccd3106e6f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\arduino\LVGL_Arduino">
+      <UniqueIdentifier>{b3b9fdd7-152f-4f29-b0f7-0f0ee5b802ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\assets">
+      <UniqueIdentifier>{826861b0-30c4-4bb6-96a4-8b8eacb9f2be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\event">
+      <UniqueIdentifier>{0ea9c343-4920-4958-949c-770fe27c36b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\get_started">
+      <UniqueIdentifier>{f9241891-73a4-4a51-9540-403d892753a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\layouts">
+      <UniqueIdentifier>{6059ab34-adbf-4720-b854-0f91496d972d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\layouts\flex">
+      <UniqueIdentifier>{ea9dbb6b-2e2b-4353-94e7-f5bf9b5c6165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\layouts\grid">
+      <UniqueIdentifier>{1a4c3720-8f27-4ccb-a5fb-b7c1bdf6344f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\porting">
+      <UniqueIdentifier>{770f698b-7e91-4ca1-ac94-e2699767aff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\scroll">
+      <UniqueIdentifier>{6e3f54ed-1747-4230-a2ed-c06b94be1853}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\styles">
+      <UniqueIdentifier>{a4bfd619-7b38-45b7-8f99-254c0dac386d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets">
+      <UniqueIdentifier>{a7904c5a-b424-4a0f-a221-801a9ec59da8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\animimg">
+      <UniqueIdentifier>{06dffdc1-192e-462b-b42b-1c675a9be994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\arc">
+      <UniqueIdentifier>{37bc3c75-3ed7-4e2c-8572-72a500a4f4e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\bar">
+      <UniqueIdentifier>{08e894f7-7af3-4ba6-ae45-01643a45ea04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\btn">
+      <UniqueIdentifier>{3cc77f8d-902b-40a3-b8d1-47a23adbacca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\btnmatrix">
+      <UniqueIdentifier>{e2464cbe-00ca-4a96-b7fb-1023722fcd6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\calendar">
+      <UniqueIdentifier>{7d9b8692-f674-48a9-bda2-b2a1a854f52c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\canvas">
+      <UniqueIdentifier>{be208acc-bdd0-4edb-a146-3e966daca581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\chart">
+      <UniqueIdentifier>{ebe58000-f6ea-44d7-9e40-13632854ad89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\checkbox">
+      <UniqueIdentifier>{5602af6f-c050-4a37-b659-1961ed6770af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\colorwheel">
+      <UniqueIdentifier>{068c6362-52e4-4edf-8b8d-79f47e4ef632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\dropdown">
+      <UniqueIdentifier>{98f95107-ffd1-49ae-a541-714d074e11ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\img">
+      <UniqueIdentifier>{a6cf0235-ac5e-490b-ac7a-7d0b7c0bbb3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\imgbtn">
+      <UniqueIdentifier>{1581f6a9-bedc-4316-9233-241f263141d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\keyboard">
+      <UniqueIdentifier>{d3c82453-4923-4133-bd73-e05965958958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\label">
+      <UniqueIdentifier>{65235a25-929f-49f0-bb82-0a13324a5329}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\led">
+      <UniqueIdentifier>{98387b4f-0a77-40b8-86b7-69596077d3f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\line">
+      <UniqueIdentifier>{7d261528-ce1c-4041-94b6-2b84f4ebaadb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\list">
+      <UniqueIdentifier>{256a3aea-92da-4dfa-a681-69bb3b429eb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\meter">
+      <UniqueIdentifier>{af0c8197-74fc-4dfb-917b-0308179fcae8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\msgbox">
+      <UniqueIdentifier>{742447b0-1372-4ede-813e-12d6ca292a1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\obj">
+      <UniqueIdentifier>{216c8ed1-1f27-4c84-b2f0-c178135fab36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\roller">
+      <UniqueIdentifier>{d142e849-16b9-4ead-82ba-f43c3ee5ef07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\slider">
+      <UniqueIdentifier>{aef289f9-b2f0-44c7-a82a-85ad0f92da54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\span">
+      <UniqueIdentifier>{1cccb145-847e-494e-aabf-c1d449e838b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\spinbox">
+      <UniqueIdentifier>{ddad1fdc-e958-4340-b701-fddeb9b120ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\spinner">
+      <UniqueIdentifier>{76be8394-fb72-43c0-8284-42667af03cc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\switch">
+      <UniqueIdentifier>{bcfad2e0-8e4b-47df-b663-8e2869427437}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\table">
+      <UniqueIdentifier>{2dcb3901-5875-44d9-991c-9506b93b5abd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\tabview">
+      <UniqueIdentifier>{8552b8de-f6eb-4902-b341-f34140235302}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\textarea">
+      <UniqueIdentifier>{102a61d2-85de-4f1d-bfe9-16473b75ce94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\tileview">
+      <UniqueIdentifier>{4a055194-ff49-48b6-b36a-a890c86896ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\examples\widgets\win">
+      <UniqueIdentifier>{82ea0e33-ae71-4f94-9ac6-073417196c9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\scripts">
+      <UniqueIdentifier>{a9a0cfb7-7232-4814-8bce-6e80520440f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\scripts\built_in_font">
+      <UniqueIdentifier>{4f6baac0-ab2a-40ec-b139-b5ce2c3741fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\scripts\release">
+      <UniqueIdentifier>{f800c0e7-29e4-44ab-8a80-259f551fd882}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src">
+      <UniqueIdentifier>{5a563b34-38f6-48ca-953c-368b14587ee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\core">
+      <UniqueIdentifier>{f675f4ca-98b8-4af2-a8b9-ec3018bd5481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\draw">
+      <UniqueIdentifier>{4841e470-5d9c-463b-9317-e39429c4535c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra">
+      <UniqueIdentifier>{f29ab27e-966d-404a-b1cd-617a294deb2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\layouts">
+      <UniqueIdentifier>{67a707b7-ce2c-4919-b9f4-44a6fee81d7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\layouts\flex">
+      <UniqueIdentifier>{8e4269c8-988c-4824-ba50-9f546f01947d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\layouts\grid">
+      <UniqueIdentifier>{1cb17738-294f-4e8e-99c3-5d0259bb8e09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\themes">
+      <UniqueIdentifier>{00581c89-1d75-495c-a94a-16ba85891232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\themes\basic">
+      <UniqueIdentifier>{6cd416d0-441e-4a1b-81b1-555fdc85cd5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\themes\default">
+      <UniqueIdentifier>{3fe0ead7-198b-4a5c-af64-d3aec2985162}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\themes\mono">
+      <UniqueIdentifier>{8e3a6fb3-4c58-4dc0-ba37-6c39a8baa71a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\widgets">
+      <UniqueIdentifier>{23294b60-b8b8-4fd2-9f3a-afdf65505a78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\widgets\animimg">
+      <UniqueIdentifier>{704c2d12-f715-47a2-989a-9aafa5822d6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\widgets\calendar">
+      <UniqueIdentifier>{3f9c6467-222e-426f-b70e-e28637858180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\widgets\chart">
+      <UniqueIdentifier>{63979274-78af-4f04-814b-f4d632408ef7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\widgets\colorwheel">
+      <UniqueIdentifier>{53fe5d9b-138f-4218-96f2-bd2151b52706}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\widgets\imgbtn">
+      <UniqueIdentifier>{43733d8b-d673-4cbd-8655-5bd3f7d9d070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\widgets\keyboard">
+      <UniqueIdentifier>{45772798-509d-4cee-b87a-5e70548c2a3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\widgets\led">
+      <UniqueIdentifier>{394f2553-4114-4474-af57-3d9269ad2b86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\widgets\list">
+      <UniqueIdentifier>{6afa7fbb-71a9-4f4e-8708-e61369bbe872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\widgets\meter">
+      <UniqueIdentifier>{ff2ebf05-05fc-4ca9-a3b3-6cfd8b21b321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\widgets\msgbox">
+      <UniqueIdentifier>{fef9998f-16cb-4e08-8ba9-885bc2f4dcd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\widgets\span">
+      <UniqueIdentifier>{5fee1548-58ba-40f8-bae9-a840a438170a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\widgets\spinbox">
+      <UniqueIdentifier>{a204a6c3-d3ad-46ea-8d58-97106e0a290b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\widgets\spinner">
+      <UniqueIdentifier>{ef86efb5-385d-4769-ac3b-be5a912b7835}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\widgets\tabview">
+      <UniqueIdentifier>{7f0dd51e-e382-4132-ac14-39dbcc21014c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\widgets\tileview">
+      <UniqueIdentifier>{146f88e5-a020-4279-a761-201caee940dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\extra\widgets\win">
+      <UniqueIdentifier>{d8e6fad4-c1de-4dab-88de-dd33ab94ab1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\font">
+      <UniqueIdentifier>{d4aafcf6-3621-4e5b-b09e-d4a5d1e4a5a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\gpu">
+      <UniqueIdentifier>{c4a87ab1-6c8c-4631-84f1-ecf5028a718c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\hal">
+      <UniqueIdentifier>{6979995a-585b-438e-b306-635b57dd3465}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\misc">
+      <UniqueIdentifier>{7bbae27c-2b61-49d5-b388-bc9e2e005842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\src\widgets">
+      <UniqueIdentifier>{b0bc48ef-37d0-4fc2-93f1-61064962308b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\tests">
+      <UniqueIdentifier>{6b4418f6-a2f6-4c11-9b23-3fe422ccebc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\tests\lv_test_core">
+      <UniqueIdentifier>{5fdde35f-2e0d-4de7-ab5d-d411739e8039}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\tests\lv_test_fonts">
+      <UniqueIdentifier>{c774869c-b88e-48b6-9a0d-f536e1bef9d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\tests\lv_test_ref_imgs">
+      <UniqueIdentifier>{e4e26495-092f-4fe1-9ac7-09d445a3bad0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\tests\lv_test_widgets">
+      <UniqueIdentifier>{8b69d8ea-80b0-44e5-9309-38a3bb513d1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lvgl\zephyr">
+      <UniqueIdentifier>{0c7fb1d7-0ae8-4ba1-adb1-afcaa6707797}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lvgl\examples\anim\lv_example_anim.h">
+      <Filter>lvgl\examples\anim</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\examples\event\lv_example_event.h">
+      <Filter>lvgl\examples\event</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\examples\get_started\lv_example_get_started.h">
+      <Filter>lvgl\examples\get_started</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\examples\layouts\flex\lv_example_flex.h">
+      <Filter>lvgl\examples\layouts\flex</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\examples\layouts\grid\lv_example_grid.h">
+      <Filter>lvgl\examples\layouts\grid</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\examples\layouts\lv_example_layout.h">
+      <Filter>lvgl\examples\layouts</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\examples\porting\lv_port_disp_template.h">
+      <Filter>lvgl\examples\porting</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\examples\porting\lv_port_fs_template.h">
+      <Filter>lvgl\examples\porting</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\examples\porting\lv_port_indev_template.h">
+      <Filter>lvgl\examples\porting</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\examples\scroll\lv_example_scroll.h">
+      <Filter>lvgl\examples\scroll</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\examples\styles\lv_example_style.h">
+      <Filter>lvgl\examples\styles</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\examples\widgets\lv_example_widgets.h">
+      <Filter>lvgl\examples\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\examples\lv_examples.h">
+      <Filter>lvgl\examples</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\core\lv_disp.h">
+      <Filter>lvgl\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\core\lv_event.h">
+      <Filter>lvgl\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\core\lv_group.h">
+      <Filter>lvgl\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\core\lv_indev.h">
+      <Filter>lvgl\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\core\lv_indev_scroll.h">
+      <Filter>lvgl\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\core\lv_obj.h">
+      <Filter>lvgl\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\core\lv_obj_class.h">
+      <Filter>lvgl\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\core\lv_obj_draw.h">
+      <Filter>lvgl\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\core\lv_obj_pos.h">
+      <Filter>lvgl\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\core\lv_obj_scroll.h">
+      <Filter>lvgl\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\core\lv_obj_style.h">
+      <Filter>lvgl\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\core\lv_obj_style_gen.h">
+      <Filter>lvgl\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\core\lv_obj_tree.h">
+      <Filter>lvgl\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\core\lv_refr.h">
+      <Filter>lvgl\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\core\lv_theme.h">
+      <Filter>lvgl\src\core</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\draw\lv_draw.h">
+      <Filter>lvgl\src\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\draw\lv_draw_arc.h">
+      <Filter>lvgl\src\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\draw\lv_draw_blend.h">
+      <Filter>lvgl\src\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\draw\lv_draw_img.h">
+      <Filter>lvgl\src\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\draw\lv_draw_label.h">
+      <Filter>lvgl\src\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\draw\lv_draw_line.h">
+      <Filter>lvgl\src\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\draw\lv_draw_mask.h">
+      <Filter>lvgl\src\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\draw\lv_draw_rect.h">
+      <Filter>lvgl\src\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\draw\lv_draw_triangle.h">
+      <Filter>lvgl\src\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\draw\lv_img_buf.h">
+      <Filter>lvgl\src\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\draw\lv_img_cache.h">
+      <Filter>lvgl\src\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\draw\lv_img_decoder.h">
+      <Filter>lvgl\src\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\extra\layouts\flex\lv_flex.h">
+      <Filter>lvgl\src\extra\layouts\flex</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\extra\layouts\grid\lv_grid.h">
+      <Filter>lvgl\src\extra\layouts\grid</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\extra\layouts\lv_layouts.h">
+      <Filter>lvgl\src\extra\layouts</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\extra\themes\basic\lv_theme_basic.h">
+      <Filter>lvgl\src\extra\themes\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\extra\themes\default\lv_theme_default.h">
+      <Filter>lvgl\src\extra\themes\default</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\extra\themes\mono\lv_theme_mono.h">
+      <Filter>lvgl\src\extra\themes\mono</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\extra\themes\lv_themes.h">
+      <Filter>lvgl\src\extra\themes</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\extra\widgets\animimg\lv_animimg.h">
+      <Filter>lvgl\src\extra\widgets\animimg</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\extra\widgets\calendar\lv_calendar.h">
+      <Filter>lvgl\src\extra\widgets\calendar</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\extra\widgets\calendar\lv_calendar_header_arrow.h">
+      <Filter>lvgl\src\extra\widgets\calendar</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\extra\widgets\calendar\lv_calendar_header_dropdown.h">
+      <Filter>lvgl\src\extra\widgets\calendar</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\extra\widgets\chart\lv_chart.h">
+      <Filter>lvgl\src\extra\widgets\chart</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\extra\widgets\colorwheel\lv_colorwheel.h">
+      <Filter>lvgl\src\extra\widgets\colorwheel</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\extra\widgets\imgbtn\lv_imgbtn.h">
+      <Filter>lvgl\src\extra\widgets\imgbtn</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\extra\widgets\keyboard\lv_keyboard.h">
+      <Filter>lvgl\src\extra\widgets\keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\extra\widgets\led\lv_led.h">
+      <Filter>lvgl\src\extra\widgets\led</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\extra\widgets\list\lv_list.h">
+      <Filter>lvgl\src\extra\widgets\list</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\extra\widgets\meter\lv_meter.h">
+      <Filter>lvgl\src\extra\widgets\meter</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\extra\widgets\msgbox\lv_msgbox.h">
+      <Filter>lvgl\src\extra\widgets\msgbox</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\extra\widgets\span\lv_span.h">
+      <Filter>lvgl\src\extra\widgets\span</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\extra\widgets\spinbox\lv_spinbox.h">
+      <Filter>lvgl\src\extra\widgets\spinbox</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\extra\widgets\spinner\lv_spinner.h">
+      <Filter>lvgl\src\extra\widgets\spinner</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\extra\widgets\tabview\lv_tabview.h">
+      <Filter>lvgl\src\extra\widgets\tabview</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\extra\widgets\tileview\lv_tileview.h">
+      <Filter>lvgl\src\extra\widgets\tileview</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\extra\widgets\win\lv_win.h">
+      <Filter>lvgl\src\extra\widgets\win</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\extra\widgets\lv_widgets.h">
+      <Filter>lvgl\src\extra\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\extra\lv_extra.h">
+      <Filter>lvgl\src\extra</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\font\lv_font.h">
+      <Filter>lvgl\src\font</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\font\lv_font_fmt_txt.h">
+      <Filter>lvgl\src\font</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\font\lv_font_loader.h">
+      <Filter>lvgl\src\font</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\font\lv_symbol_def.h">
+      <Filter>lvgl\src\font</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\gpu\lv_gpu_nxp_pxp.h">
+      <Filter>lvgl\src\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\gpu\lv_gpu_nxp_pxp_osa.h">
+      <Filter>lvgl\src\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\gpu\lv_gpu_nxp_vglite.h">
+      <Filter>lvgl\src\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\gpu\lv_gpu_stm32_dma2d.h">
+      <Filter>lvgl\src\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\hal\lv_hal.h">
+      <Filter>lvgl\src\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\hal\lv_hal_disp.h">
+      <Filter>lvgl\src\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\hal\lv_hal_indev.h">
+      <Filter>lvgl\src\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\hal\lv_hal_tick.h">
+      <Filter>lvgl\src\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\misc\lv_anim.h">
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\misc\lv_area.h">
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\misc\lv_assert.h">
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\misc\lv_async.h">
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\misc\lv_bidi.h">
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\misc\lv_color.h">
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\misc\lv_fs.h">
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\misc\lv_gc.h">
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\misc\lv_ll.h">
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\misc\lv_log.h">
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\misc\lv_math.h">
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\misc\lv_mem.h">
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\misc\lv_printf.h">
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\misc\lv_style.h">
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\misc\lv_style_gen.h">
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\misc\lv_templ.h">
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\misc\lv_timer.h">
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\misc\lv_tlsf.h">
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\misc\lv_txt.h">
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\misc\lv_txt_ap.h">
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\misc\lv_types.h">
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\misc\lv_utils.h">
+      <Filter>lvgl\src\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\widgets\lv_arc.h">
+      <Filter>lvgl\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\widgets\lv_bar.h">
+      <Filter>lvgl\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\widgets\lv_btn.h">
+      <Filter>lvgl\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\widgets\lv_btnmatrix.h">
+      <Filter>lvgl\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\widgets\lv_canvas.h">
+      <Filter>lvgl\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\widgets\lv_checkbox.h">
+      <Filter>lvgl\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\widgets\lv_dropdown.h">
+      <Filter>lvgl\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\widgets\lv_img.h">
+      <Filter>lvgl\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\widgets\lv_label.h">
+      <Filter>lvgl\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\widgets\lv_line.h">
+      <Filter>lvgl\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\widgets\lv_objx_templ.h">
+      <Filter>lvgl\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\widgets\lv_roller.h">
+      <Filter>lvgl\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\widgets\lv_slider.h">
+      <Filter>lvgl\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\widgets\lv_switch.h">
+      <Filter>lvgl\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\widgets\lv_table.h">
+      <Filter>lvgl\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\widgets\lv_textarea.h">
+      <Filter>lvgl\src\widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lvgl.h">
+      <Filter>lvgl\src</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_api_map.h">
+      <Filter>lvgl\src</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_conf_internal.h">
+      <Filter>lvgl\src</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\src\lv_conf_kconfig.h">
+      <Filter>lvgl\src</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\tests\lv_test_core\lv_test_core.h">
+      <Filter>lvgl\tests\lv_test_core</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\tests\lv_test_core\lv_test_font_loader.h">
+      <Filter>lvgl\tests\lv_test_core</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\tests\lv_test_core\lv_test_obj.h">
+      <Filter>lvgl\tests\lv_test_core</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\tests\lv_test_core\lv_test_style.h">
+      <Filter>lvgl\tests\lv_test_core</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\tests\lv_test_widgets\lv_test_label.h">
+      <Filter>lvgl\tests\lv_test_widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\tests\lv_test_assert.h">
+      <Filter>lvgl\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\tests\lv_test_conf.h">
+      <Filter>lvgl\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\lvgl.h">
+      <Filter>lvgl</Filter>
+    </ClInclude>
+    <ClInclude Include="lvgl\lv_conf_template.h">
+      <Filter>lvgl</Filter>
+    </ClInclude>
+    <ClInclude Include="app\dataStorage.h" />
+    <ClInclude Include="app\ui_common.h" />
+    <ClInclude Include="app\text_table.h" />
+    <ClInclude Include="app\menu.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lvgl\examples\anim\lv_example_anim_1.c">
+      <Filter>lvgl\examples\anim</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\anim\lv_example_anim_2.c">
+      <Filter>lvgl\examples\anim</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\assets\animimg001.c">
+      <Filter>lvgl\examples\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\assets\animimg002.c">
+      <Filter>lvgl\examples\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\assets\animimg003.c">
+      <Filter>lvgl\examples\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\assets\imgbtn_left.c">
+      <Filter>lvgl\examples\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\assets\imgbtn_mid.c">
+      <Filter>lvgl\examples\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\assets\imgbtn_right.c">
+      <Filter>lvgl\examples\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\assets\img_caret_down.c">
+      <Filter>lvgl\examples\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\assets\img_cogwheel_alpha16.c">
+      <Filter>lvgl\examples\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\assets\img_cogwheel_argb.c">
+      <Filter>lvgl\examples\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\assets\img_cogwheel_chroma_keyed.c">
+      <Filter>lvgl\examples\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\assets\img_cogwheel_indexed16.c">
+      <Filter>lvgl\examples\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\assets\img_cogwheel_rgb.c">
+      <Filter>lvgl\examples\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\assets\img_hand.c">
+      <Filter>lvgl\examples\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\assets\img_skew_strip.c">
+      <Filter>lvgl\examples\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\assets\img_star.c">
+      <Filter>lvgl\examples\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\event\lv_example_event_1.c">
+      <Filter>lvgl\examples\event</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\event\lv_example_event_2.c">
+      <Filter>lvgl\examples\event</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\event\lv_example_event_3.c">
+      <Filter>lvgl\examples\event</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\get_started\lv_example_get_started_1.c">
+      <Filter>lvgl\examples\get_started</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\get_started\lv_example_get_started_2.c">
+      <Filter>lvgl\examples\get_started</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\get_started\lv_example_get_started_3.c">
+      <Filter>lvgl\examples\get_started</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\layouts\flex\lv_example_flex_1.c">
+      <Filter>lvgl\examples\layouts\flex</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\layouts\flex\lv_example_flex_2.c">
+      <Filter>lvgl\examples\layouts\flex</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\layouts\flex\lv_example_flex_3.c">
+      <Filter>lvgl\examples\layouts\flex</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\layouts\flex\lv_example_flex_4.c">
+      <Filter>lvgl\examples\layouts\flex</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\layouts\flex\lv_example_flex_5.c">
+      <Filter>lvgl\examples\layouts\flex</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\layouts\flex\lv_example_flex_6.c">
+      <Filter>lvgl\examples\layouts\flex</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\layouts\grid\lv_example_grid_1.c">
+      <Filter>lvgl\examples\layouts\grid</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\layouts\grid\lv_example_grid_2.c">
+      <Filter>lvgl\examples\layouts\grid</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\layouts\grid\lv_example_grid_3.c">
+      <Filter>lvgl\examples\layouts\grid</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\layouts\grid\lv_example_grid_4.c">
+      <Filter>lvgl\examples\layouts\grid</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\layouts\grid\lv_example_grid_5.c">
+      <Filter>lvgl\examples\layouts\grid</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\layouts\grid\lv_example_grid_6.c">
+      <Filter>lvgl\examples\layouts\grid</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\porting\lv_port_disp_template.c">
+      <Filter>lvgl\examples\porting</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\porting\lv_port_fs_template.c">
+      <Filter>lvgl\examples\porting</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\porting\lv_port_indev_template.c">
+      <Filter>lvgl\examples\porting</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\scroll\lv_example_scroll_1.c">
+      <Filter>lvgl\examples\scroll</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\scroll\lv_example_scroll_2.c">
+      <Filter>lvgl\examples\scroll</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\scroll\lv_example_scroll_3.c">
+      <Filter>lvgl\examples\scroll</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\scroll\lv_example_scroll_4.c">
+      <Filter>lvgl\examples\scroll</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\scroll\lv_example_scroll_5.c">
+      <Filter>lvgl\examples\scroll</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\scroll\lv_example_scroll_6.c">
+      <Filter>lvgl\examples\scroll</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\styles\lv_example_style_1.c">
+      <Filter>lvgl\examples\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\styles\lv_example_style_10.c">
+      <Filter>lvgl\examples\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\styles\lv_example_style_11.c">
+      <Filter>lvgl\examples\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\styles\lv_example_style_12.c">
+      <Filter>lvgl\examples\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\styles\lv_example_style_13.c">
+      <Filter>lvgl\examples\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\styles\lv_example_style_14.c">
+      <Filter>lvgl\examples\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\styles\lv_example_style_2.c">
+      <Filter>lvgl\examples\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\styles\lv_example_style_3.c">
+      <Filter>lvgl\examples\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\styles\lv_example_style_4.c">
+      <Filter>lvgl\examples\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\styles\lv_example_style_5.c">
+      <Filter>lvgl\examples\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\styles\lv_example_style_6.c">
+      <Filter>lvgl\examples\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\styles\lv_example_style_7.c">
+      <Filter>lvgl\examples\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\styles\lv_example_style_8.c">
+      <Filter>lvgl\examples\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\styles\lv_example_style_9.c">
+      <Filter>lvgl\examples\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\animimg\lv_example_animimg_1.c">
+      <Filter>lvgl\examples\widgets\animimg</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\arc\lv_example_arc_1.c">
+      <Filter>lvgl\examples\widgets\arc</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\arc\lv_example_arc_2.c">
+      <Filter>lvgl\examples\widgets\arc</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\bar\lv_example_bar_1.c">
+      <Filter>lvgl\examples\widgets\bar</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\bar\lv_example_bar_2.c">
+      <Filter>lvgl\examples\widgets\bar</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\bar\lv_example_bar_3.c">
+      <Filter>lvgl\examples\widgets\bar</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\bar\lv_example_bar_4.c">
+      <Filter>lvgl\examples\widgets\bar</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\bar\lv_example_bar_5.c">
+      <Filter>lvgl\examples\widgets\bar</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\bar\lv_example_bar_6.c">
+      <Filter>lvgl\examples\widgets\bar</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\btn\lv_example_btn_1.c">
+      <Filter>lvgl\examples\widgets\btn</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\btn\lv_example_btn_2.c">
+      <Filter>lvgl\examples\widgets\btn</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\btn\lv_example_btn_3.c">
+      <Filter>lvgl\examples\widgets\btn</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\btnmatrix\lv_example_btnmatrix_1.c">
+      <Filter>lvgl\examples\widgets\btnmatrix</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\btnmatrix\lv_example_btnmatrix_2.c">
+      <Filter>lvgl\examples\widgets\btnmatrix</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\btnmatrix\lv_example_btnmatrix_3.c">
+      <Filter>lvgl\examples\widgets\btnmatrix</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\calendar\lv_example_calendar_1.c">
+      <Filter>lvgl\examples\widgets\calendar</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\canvas\lv_example_canvas_1.c">
+      <Filter>lvgl\examples\widgets\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\canvas\lv_example_canvas_2.c">
+      <Filter>lvgl\examples\widgets\canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\chart\lv_example_chart_1.c">
+      <Filter>lvgl\examples\widgets\chart</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\chart\lv_example_chart_2.c">
+      <Filter>lvgl\examples\widgets\chart</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\chart\lv_example_chart_3.c">
+      <Filter>lvgl\examples\widgets\chart</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\chart\lv_example_chart_4.c">
+      <Filter>lvgl\examples\widgets\chart</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\chart\lv_example_chart_5.c">
+      <Filter>lvgl\examples\widgets\chart</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\chart\lv_example_chart_6.c">
+      <Filter>lvgl\examples\widgets\chart</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\chart\lv_example_chart_7.c">
+      <Filter>lvgl\examples\widgets\chart</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\checkbox\lv_example_checkbox_1.c">
+      <Filter>lvgl\examples\widgets\checkbox</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\colorwheel\lv_example_colorwheel_1.c">
+      <Filter>lvgl\examples\widgets\colorwheel</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\dropdown\lv_example_dropdown_1.c">
+      <Filter>lvgl\examples\widgets\dropdown</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\dropdown\lv_example_dropdown_2.c">
+      <Filter>lvgl\examples\widgets\dropdown</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\dropdown\lv_example_dropdown_3.c">
+      <Filter>lvgl\examples\widgets\dropdown</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\img\lv_example_img_1.c">
+      <Filter>lvgl\examples\widgets\img</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\img\lv_example_img_2.c">
+      <Filter>lvgl\examples\widgets\img</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\img\lv_example_img_3.c">
+      <Filter>lvgl\examples\widgets\img</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\img\lv_example_img_4.c">
+      <Filter>lvgl\examples\widgets\img</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\imgbtn\lv_example_imgbtn_1.c">
+      <Filter>lvgl\examples\widgets\imgbtn</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\keyboard\lv_example_keyboard_1.c">
+      <Filter>lvgl\examples\widgets\keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\label\lv_example_label_1.c">
+      <Filter>lvgl\examples\widgets\label</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\label\lv_example_label_2.c">
+      <Filter>lvgl\examples\widgets\label</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\label\lv_example_label_3.c">
+      <Filter>lvgl\examples\widgets\label</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\led\lv_example_led_1.c">
+      <Filter>lvgl\examples\widgets\led</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\line\lv_example_line_1.c">
+      <Filter>lvgl\examples\widgets\line</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\list\lv_example_list_1.c">
+      <Filter>lvgl\examples\widgets\list</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\meter\lv_example_meter_1.c">
+      <Filter>lvgl\examples\widgets\meter</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\meter\lv_example_meter_2.c">
+      <Filter>lvgl\examples\widgets\meter</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\meter\lv_example_meter_3.c">
+      <Filter>lvgl\examples\widgets\meter</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\meter\lv_example_meter_4.c">
+      <Filter>lvgl\examples\widgets\meter</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\msgbox\lv_example_msgbox_1.c">
+      <Filter>lvgl\examples\widgets\msgbox</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\obj\lv_example_obj_1.c">
+      <Filter>lvgl\examples\widgets\obj</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\obj\lv_example_obj_2.c">
+      <Filter>lvgl\examples\widgets\obj</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\roller\lv_example_roller_1.c">
+      <Filter>lvgl\examples\widgets\roller</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\roller\lv_example_roller_2.c">
+      <Filter>lvgl\examples\widgets\roller</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\roller\lv_example_roller_3.c">
+      <Filter>lvgl\examples\widgets\roller</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\slider\lv_example_slider_1.c">
+      <Filter>lvgl\examples\widgets\slider</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\slider\lv_example_slider_2.c">
+      <Filter>lvgl\examples\widgets\slider</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\slider\lv_example_slider_3.c">
+      <Filter>lvgl\examples\widgets\slider</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\span\lv_example_span_1.c">
+      <Filter>lvgl\examples\widgets\span</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\spinbox\lv_example_spinbox_1.c">
+      <Filter>lvgl\examples\widgets\spinbox</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\spinner\lv_example_spinner_1.c">
+      <Filter>lvgl\examples\widgets\spinner</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\switch\lv_example_switch_1.c">
+      <Filter>lvgl\examples\widgets\switch</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\table\lv_example_table_1.c">
+      <Filter>lvgl\examples\widgets\table</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\table\lv_example_table_2.c">
+      <Filter>lvgl\examples\widgets\table</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\tabview\lv_example_tabview_1.c">
+      <Filter>lvgl\examples\widgets\tabview</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\tabview\lv_example_tabview_2.c">
+      <Filter>lvgl\examples\widgets\tabview</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\textarea\lv_example_textarea_1.c">
+      <Filter>lvgl\examples\widgets\textarea</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\textarea\lv_example_textarea_2.c">
+      <Filter>lvgl\examples\widgets\textarea</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\textarea\lv_example_textarea_3.c">
+      <Filter>lvgl\examples\widgets\textarea</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\tileview\lv_example_tileview_1.c">
+      <Filter>lvgl\examples\widgets\tileview</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\examples\widgets\win\lv_example_win_1.c">
+      <Filter>lvgl\examples\widgets\win</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\core\lv_disp.c">
+      <Filter>lvgl\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\core\lv_event.c">
+      <Filter>lvgl\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\core\lv_group.c">
+      <Filter>lvgl\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\core\lv_indev.c">
+      <Filter>lvgl\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\core\lv_indev_scroll.c">
+      <Filter>lvgl\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\core\lv_obj.c">
+      <Filter>lvgl\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\core\lv_obj_class.c">
+      <Filter>lvgl\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\core\lv_obj_draw.c">
+      <Filter>lvgl\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\core\lv_obj_pos.c">
+      <Filter>lvgl\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\core\lv_obj_scroll.c">
+      <Filter>lvgl\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\core\lv_obj_style.c">
+      <Filter>lvgl\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\core\lv_obj_style_gen.c">
+      <Filter>lvgl\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\core\lv_obj_tree.c">
+      <Filter>lvgl\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\core\lv_refr.c">
+      <Filter>lvgl\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\core\lv_theme.c">
+      <Filter>lvgl\src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\draw\lv_draw_arc.c">
+      <Filter>lvgl\src\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\draw\lv_draw_blend.c">
+      <Filter>lvgl\src\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\draw\lv_draw_img.c">
+      <Filter>lvgl\src\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\draw\lv_draw_label.c">
+      <Filter>lvgl\src\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\draw\lv_draw_line.c">
+      <Filter>lvgl\src\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\draw\lv_draw_mask.c">
+      <Filter>lvgl\src\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\draw\lv_draw_rect.c">
+      <Filter>lvgl\src\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\draw\lv_draw_triangle.c">
+      <Filter>lvgl\src\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\draw\lv_img_buf.c">
+      <Filter>lvgl\src\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\draw\lv_img_cache.c">
+      <Filter>lvgl\src\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\draw\lv_img_decoder.c">
+      <Filter>lvgl\src\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\extra\layouts\flex\lv_flex.c">
+      <Filter>lvgl\src\extra\layouts\flex</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\extra\layouts\grid\lv_grid.c">
+      <Filter>lvgl\src\extra\layouts\grid</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\extra\themes\basic\lv_theme_basic.c">
+      <Filter>lvgl\src\extra\themes\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\extra\themes\default\lv_theme_default.c">
+      <Filter>lvgl\src\extra\themes\default</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\extra\themes\mono\lv_theme_mono.c">
+      <Filter>lvgl\src\extra\themes\mono</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\extra\widgets\animimg\lv_animimg.c">
+      <Filter>lvgl\src\extra\widgets\animimg</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\extra\widgets\calendar\lv_calendar.c">
+      <Filter>lvgl\src\extra\widgets\calendar</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\extra\widgets\calendar\lv_calendar_header_arrow.c">
+      <Filter>lvgl\src\extra\widgets\calendar</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\extra\widgets\calendar\lv_calendar_header_dropdown.c">
+      <Filter>lvgl\src\extra\widgets\calendar</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\extra\widgets\chart\lv_chart.c">
+      <Filter>lvgl\src\extra\widgets\chart</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\extra\widgets\colorwheel\lv_colorwheel.c">
+      <Filter>lvgl\src\extra\widgets\colorwheel</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\extra\widgets\imgbtn\lv_imgbtn.c">
+      <Filter>lvgl\src\extra\widgets\imgbtn</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\extra\widgets\keyboard\lv_keyboard.c">
+      <Filter>lvgl\src\extra\widgets\keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\extra\widgets\led\lv_led.c">
+      <Filter>lvgl\src\extra\widgets\led</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\extra\widgets\list\lv_list.c">
+      <Filter>lvgl\src\extra\widgets\list</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\extra\widgets\meter\lv_meter.c">
+      <Filter>lvgl\src\extra\widgets\meter</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\extra\widgets\msgbox\lv_msgbox.c">
+      <Filter>lvgl\src\extra\widgets\msgbox</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\extra\widgets\span\lv_span.c">
+      <Filter>lvgl\src\extra\widgets\span</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\extra\widgets\spinbox\lv_spinbox.c">
+      <Filter>lvgl\src\extra\widgets\spinbox</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\extra\widgets\spinner\lv_spinner.c">
+      <Filter>lvgl\src\extra\widgets\spinner</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\extra\widgets\tabview\lv_tabview.c">
+      <Filter>lvgl\src\extra\widgets\tabview</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\extra\widgets\tileview\lv_tileview.c">
+      <Filter>lvgl\src\extra\widgets\tileview</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\extra\widgets\win\lv_win.c">
+      <Filter>lvgl\src\extra\widgets\win</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\extra\lv_extra.c">
+      <Filter>lvgl\src\extra</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\font\lv_font.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\font\lv_font_dejavu_16_persian_hebrew.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\font\lv_font_fmt_txt.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\font\lv_font_loader.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\font\lv_font_montserrat_10.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\font\lv_font_montserrat_12.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\font\lv_font_montserrat_12_subpx.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\font\lv_font_montserrat_14.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\font\lv_font_montserrat_16.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\font\lv_font_montserrat_18.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\font\lv_font_montserrat_20.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\font\lv_font_montserrat_22.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\font\lv_font_montserrat_24.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\font\lv_font_montserrat_26.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\font\lv_font_montserrat_28.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\font\lv_font_montserrat_28_compressed.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\font\lv_font_montserrat_30.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\font\lv_font_montserrat_32.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\font\lv_font_montserrat_34.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\font\lv_font_montserrat_36.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\font\lv_font_montserrat_38.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\font\lv_font_montserrat_40.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\font\lv_font_montserrat_42.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\font\lv_font_montserrat_44.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\font\lv_font_montserrat_46.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\font\lv_font_montserrat_48.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\font\lv_font_montserrat_8.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\font\lv_font_simsun_16_cjk.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\font\lv_font_unscii_16.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\font\lv_font_unscii_8.c">
+      <Filter>lvgl\src\font</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\gpu\lv_gpu_nxp_pxp.c">
+      <Filter>lvgl\src\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\gpu\lv_gpu_nxp_pxp_osa.c">
+      <Filter>lvgl\src\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\gpu\lv_gpu_nxp_vglite.c">
+      <Filter>lvgl\src\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\gpu\lv_gpu_stm32_dma2d.c">
+      <Filter>lvgl\src\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\hal\lv_hal_disp.c">
+      <Filter>lvgl\src\hal</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\hal\lv_hal_indev.c">
+      <Filter>lvgl\src\hal</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\hal\lv_hal_tick.c">
+      <Filter>lvgl\src\hal</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\misc\lv_anim.c">
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\misc\lv_area.c">
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\misc\lv_async.c">
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\misc\lv_bidi.c">
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\misc\lv_color.c">
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\misc\lv_fs.c">
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\misc\lv_gc.c">
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\misc\lv_ll.c">
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\misc\lv_log.c">
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\misc\lv_math.c">
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\misc\lv_mem.c">
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\misc\lv_printf.c">
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\misc\lv_style.c">
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\misc\lv_style_gen.c">
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\misc\lv_templ.c">
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\misc\lv_timer.c">
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\misc\lv_tlsf.c">
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\misc\lv_txt.c">
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\misc\lv_txt_ap.c">
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\misc\lv_utils.c">
+      <Filter>lvgl\src\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\widgets\lv_arc.c">
+      <Filter>lvgl\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\widgets\lv_bar.c">
+      <Filter>lvgl\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\widgets\lv_btn.c">
+      <Filter>lvgl\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\widgets\lv_btnmatrix.c">
+      <Filter>lvgl\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\widgets\lv_canvas.c">
+      <Filter>lvgl\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\widgets\lv_checkbox.c">
+      <Filter>lvgl\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\widgets\lv_dropdown.c">
+      <Filter>lvgl\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\widgets\lv_img.c">
+      <Filter>lvgl\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\widgets\lv_label.c">
+      <Filter>lvgl\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\widgets\lv_line.c">
+      <Filter>lvgl\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\widgets\lv_objx_templ.c">
+      <Filter>lvgl\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\widgets\lv_roller.c">
+      <Filter>lvgl\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\widgets\lv_slider.c">
+      <Filter>lvgl\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\widgets\lv_switch.c">
+      <Filter>lvgl\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\widgets\lv_table.c">
+      <Filter>lvgl\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\src\widgets\lv_textarea.c">
+      <Filter>lvgl\src\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\tests\lv_test_core\lv_test_core.c">
+      <Filter>lvgl\tests\lv_test_core</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\tests\lv_test_core\lv_test_font_loader.c">
+      <Filter>lvgl\tests\lv_test_core</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\tests\lv_test_core\lv_test_obj.c">
+      <Filter>lvgl\tests\lv_test_core</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\tests\lv_test_core\lv_test_style.c">
+      <Filter>lvgl\tests\lv_test_core</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\tests\lv_test_fonts\font_1.c">
+      <Filter>lvgl\tests\lv_test_fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\tests\lv_test_fonts\font_2.c">
+      <Filter>lvgl\tests\lv_test_fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\tests\lv_test_fonts\font_3.c">
+      <Filter>lvgl\tests\lv_test_fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\tests\lv_test_widgets\lv_test_label.c">
+      <Filter>lvgl\tests\lv_test_widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\tests\lv_test_assert.c">
+      <Filter>lvgl\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="lvgl\tests\lv_test_main.c">
+      <Filter>lvgl\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="app\dataStorage.c" />
+    <ClCompile Include="app\frmProcess.c" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="lvgl\src\font\DSEG7_classic_bold_25.c" />
+    <ClCompile Include="app\counter_conf.c" />
+    <ClCompile Include="app\ui_common.c" />
+    <ClCompile Include="app\text_table.c" />
+    <ClCompile Include="app\menuStruct.c" />
+    <ClCompile Include="app\menu.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lvgl\.github\ISSUE_TEMPLATE\bug-report.md">
+      <Filter>lvgl\.github\ISSUE_TEMPLATE</Filter>
+    </None>
+    <None Include="lvgl\.github\ISSUE_TEMPLATE\config.yml">
+      <Filter>lvgl\.github\ISSUE_TEMPLATE</Filter>
+    </None>
+    <None Include="lvgl\.github\ISSUE_TEMPLATE\dev-discussion.md">
+      <Filter>lvgl\.github\ISSUE_TEMPLATE</Filter>
+    </None>
+    <None Include="lvgl\.github\workflows\build_micropython.yml">
+      <Filter>lvgl\.github\workflows</Filter>
+    </None>
+    <None Include="lvgl\.github\workflows\ccpp.yml">
+      <Filter>lvgl\.github\workflows</Filter>
+    </None>
+    <None Include="lvgl\.github\workflows\close_old_issues.yml">
+      <Filter>lvgl\.github\workflows</Filter>
+    </None>
+    <None Include="lvgl\.github\workflows\compile_docs.yml">
+      <Filter>lvgl\.github\workflows</Filter>
+    </None>
+    <None Include="lvgl\.github\workflows\main.yml">
+      <Filter>lvgl\.github\workflows</Filter>
+    </None>
+    <None Include="lvgl\.github\workflows\release.yml">
+      <Filter>lvgl\.github\workflows</Filter>
+    </None>
+    <None Include="lvgl\.github\auto-comment.yml">
+      <Filter>lvgl\.github</Filter>
+    </None>
+    <None Include="lvgl\.github\FUNDING.yml">
+      <Filter>lvgl\.github</Filter>
+    </None>
+    <None Include="lvgl\.github\pull_request_template.md">
+      <Filter>lvgl\.github</Filter>
+    </None>
+    <None Include="lvgl\docs\get-started\arduino.md">
+      <Filter>lvgl\docs\get-started</Filter>
+    </None>
+    <None Include="lvgl\docs\get-started\espressif.md">
+      <Filter>lvgl\docs\get-started</Filter>
+    </None>
+    <None Include="lvgl\docs\get-started\index.md">
+      <Filter>lvgl\docs\get-started</Filter>
+    </None>
+    <None Include="lvgl\docs\get-started\micropython.md">
+      <Filter>lvgl\docs\get-started</Filter>
+    </None>
+    <None Include="lvgl\docs\get-started\nuttx.md">
+      <Filter>lvgl\docs\get-started</Filter>
+    </None>
+    <None Include="lvgl\docs\get-started\nxp.md">
+      <Filter>lvgl\docs\get-started</Filter>
+    </None>
+    <None Include="lvgl\docs\get-started\pc-simulator.md">
+      <Filter>lvgl\docs\get-started</Filter>
+    </None>
+    <None Include="lvgl\docs\get-started\quick-overview.md">
+      <Filter>lvgl\docs\get-started</Filter>
+    </None>
+    <None Include="lvgl\docs\get-started\stm32.md">
+      <Filter>lvgl\docs\get-started</Filter>
+    </None>
+    <None Include="lvgl\docs\intro\index.md">
+      <Filter>lvgl\docs\intro</Filter>
+    </None>
+    <None Include="lvgl\docs\layouts\flex.md">
+      <Filter>lvgl\docs\layouts</Filter>
+    </None>
+    <None Include="lvgl\docs\layouts\grid.md">
+      <Filter>lvgl\docs\layouts</Filter>
+    </None>
+    <None Include="lvgl\docs\layouts\index.md">
+      <Filter>lvgl\docs\layouts</Filter>
+    </None>
+    <None Include="lvgl\docs\misc\align.png">
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="lvgl\docs\misc\bidi.png">
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="lvgl\docs\misc\boxmodel.png">
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="lvgl\docs\misc\btn_example.png">
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="lvgl\docs\misc\button_style_example.gif">
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="lvgl\docs\misc\button_style_example.png">
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="lvgl\docs\misc\codeblocks.jpg">
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="lvgl\docs\misc\eclipse.jpg">
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="lvgl\docs\misc\layers.png">
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="lvgl\docs\misc\par_child1.png">
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="lvgl\docs\misc\par_child2.png">
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="lvgl\docs\misc\par_child3.png">
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="lvgl\docs\misc\platformio.jpg">
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="lvgl\docs\misc\qtcreator.jpg">
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="lvgl\docs\misc\simple_button_example.gif">
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="lvgl\docs\misc\simple_button_example.png">
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="lvgl\docs\misc\symbols.png">
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="lvgl\docs\misc\sys.png">
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="lvgl\docs\misc\visualstudio.jpg">
+      <Filter>lvgl\docs\misc</Filter>
+    </None>
+    <None Include="lvgl\docs\overview\animation.md">
+      <Filter>lvgl\docs\overview</Filter>
+    </None>
+    <None Include="lvgl\docs\overview\color.md">
+      <Filter>lvgl\docs\overview</Filter>
+    </None>
+    <None Include="lvgl\docs\overview\coords.md">
+      <Filter>lvgl\docs\overview</Filter>
+    </None>
+    <None Include="lvgl\docs\overview\display.md">
+      <Filter>lvgl\docs\overview</Filter>
+    </None>
+    <None Include="lvgl\docs\overview\drawing.md">
+      <Filter>lvgl\docs\overview</Filter>
+    </None>
+    <None Include="lvgl\docs\overview\event.md">
+      <Filter>lvgl\docs\overview</Filter>
+    </None>
+    <None Include="lvgl\docs\overview\file-system.md">
+      <Filter>lvgl\docs\overview</Filter>
+    </None>
+    <None Include="lvgl\docs\overview\font.md">
+      <Filter>lvgl\docs\overview</Filter>
+    </None>
+    <None Include="lvgl\docs\overview\image.md">
+      <Filter>lvgl\docs\overview</Filter>
+    </None>
+    <None Include="lvgl\docs\overview\indev.md">
+      <Filter>lvgl\docs\overview</Filter>
+    </None>
+    <None Include="lvgl\docs\overview\index.md">
+      <Filter>lvgl\docs\overview</Filter>
+    </None>
+    <None Include="lvgl\docs\overview\layer.md">
+      <Filter>lvgl\docs\overview</Filter>
+    </None>
+    <None Include="lvgl\docs\overview\new_widget.md">
+      <Filter>lvgl\docs\overview</Filter>
+    </None>
+    <None Include="lvgl\docs\overview\object.md">
+      <Filter>lvgl\docs\overview</Filter>
+    </None>
+    <None Include="lvgl\docs\overview\scroll.md">
+      <Filter>lvgl\docs\overview</Filter>
+    </None>
+    <None Include="lvgl\docs\overview\style-props.md">
+      <Filter>lvgl\docs\overview</Filter>
+    </None>
+    <None Include="lvgl\docs\overview\style.md">
+      <Filter>lvgl\docs\overview</Filter>
+    </None>
+    <None Include="lvgl\docs\overview\timer.md">
+      <Filter>lvgl\docs\overview</Filter>
+    </None>
+    <None Include="lvgl\docs\porting\display.md">
+      <Filter>lvgl\docs\porting</Filter>
+    </None>
+    <None Include="lvgl\docs\porting\indev.md">
+      <Filter>lvgl\docs\porting</Filter>
+    </None>
+    <None Include="lvgl\docs\porting\index.md">
+      <Filter>lvgl\docs\porting</Filter>
+    </None>
+    <None Include="lvgl\docs\porting\log.md">
+      <Filter>lvgl\docs\porting</Filter>
+    </None>
+    <None Include="lvgl\docs\porting\os.md">
+      <Filter>lvgl\docs\porting</Filter>
+    </None>
+    <None Include="lvgl\docs\porting\project.md">
+      <Filter>lvgl\docs\porting</Filter>
+    </None>
+    <None Include="lvgl\docs\porting\sleep.md">
+      <Filter>lvgl\docs\porting</Filter>
+    </None>
+    <None Include="lvgl\docs\porting\task-handler.md">
+      <Filter>lvgl\docs\porting</Filter>
+    </None>
+    <None Include="lvgl\docs\porting\tick.md">
+      <Filter>lvgl\docs\porting</Filter>
+    </None>
+    <None Include="lvgl\docs\widgets\core\arc.md">
+      <Filter>lvgl\docs\widgets\core</Filter>
+    </None>
+    <None Include="lvgl\docs\widgets\core\bar.md">
+      <Filter>lvgl\docs\widgets\core</Filter>
+    </None>
+    <None Include="lvgl\docs\widgets\core\btn.md">
+      <Filter>lvgl\docs\widgets\core</Filter>
+    </None>
+    <None Include="lvgl\docs\widgets\core\btnmatrix.md">
+      <Filter>lvgl\docs\widgets\core</Filter>
+    </None>
+    <None Include="lvgl\docs\widgets\core\canvas.md">
+      <Filter>lvgl\docs\widgets\core</Filter>
+    </None>
+    <None Include="lvgl\docs\widgets\core\checkbox.md">
+      <Filter>lvgl\docs\widgets\core</Filter>
+    </None>
+    <None Include="lvgl\docs\widgets\core\dropdown.md">
+      <Filter>lvgl\docs\widgets\core</Filter>
+    </None>
+    <None Include="lvgl\docs\widgets\core\img.md">
+      <Filter>lvgl\docs\widgets\core</Filter>
+    </None>
+    <None Include="lvgl\docs\widgets\core\index.md">
+      <Filter>lvgl\docs\widgets\core</Filter>
+    </None>
+    <None Include="lvgl\docs\widgets\core\label.md">
+      <Filter>lvgl\docs\widgets\core</Filter>
+    </None>
+    <None Include="lvgl\docs\widgets\core\line.md">
+      <Filter>lvgl\docs\widgets\core</Filter>
+    </None>
+    <None Include="lvgl\docs\widgets\core\roller.md">
+      <Filter>lvgl\docs\widgets\core</Filter>
+    </None>
+    <None Include="lvgl\docs\widgets\core\slider.md">
+      <Filter>lvgl\docs\widgets\core</Filter>
+    </None>
+    <None Include="lvgl\docs\widgets\core\switch.md">
+      <Filter>lvgl\docs\widgets\core</Filter>
+    </None>
+    <None Include="lvgl\docs\widgets\core\table.md">
+      <Filter>lvgl\docs\widgets\core</Filter>
+    </None>
+    <None Include="lvgl\docs\widgets\core\textarea.md">
+      <Filter>lvgl\docs\widgets\core</Filter>
+    </None>
+    <None Include="lvgl\docs\widgets\extra\calendar.md">
+      <Filter>lvgl\docs\widgets\extra</Filter>
+    </None>
+    <None Include="lvgl\docs\widgets\extra\chart.md">
+      <Filter>lvgl\docs\widgets\extra</Filter>
+    </None>
+    <None Include="lvgl\docs\widgets\extra\colorwheel.md">
+      <Filter>lvgl\docs\widgets\extra</Filter>
+    </None>
+    <None Include="lvgl\docs\widgets\extra\imgbtn.md">
+      <Filter>lvgl\docs\widgets\extra</Filter>
+    </None>
+    <None Include="lvgl\docs\widgets\extra\index.md">
+      <Filter>lvgl\docs\widgets\extra</Filter>
+    </None>
+    <None Include="lvgl\docs\widgets\extra\keyboard.md">
+      <Filter>lvgl\docs\widgets\extra</Filter>
+    </None>
+    <None Include="lvgl\docs\widgets\extra\led.md">
+      <Filter>lvgl\docs\widgets\extra</Filter>
+    </None>
+    <None Include="lvgl\docs\widgets\extra\list.md">
+      <Filter>lvgl\docs\widgets\extra</Filter>
+    </None>
+    <None Include="lvgl\docs\widgets\extra\meter.md">
+      <Filter>lvgl\docs\widgets\extra</Filter>
+    </None>
+    <None Include="lvgl\docs\widgets\extra\msgbox.md">
+      <Filter>lvgl\docs\widgets\extra</Filter>
+    </None>
+    <None Include="lvgl\docs\widgets\extra\span.md">
+      <Filter>lvgl\docs\widgets\extra</Filter>
+    </None>
+    <None Include="lvgl\docs\widgets\extra\spinbox.md">
+      <Filter>lvgl\docs\widgets\extra</Filter>
+    </None>
+    <None Include="lvgl\docs\widgets\extra\spinner.md">
+      <Filter>lvgl\docs\widgets\extra</Filter>
+    </None>
+    <None Include="lvgl\docs\widgets\extra\tabview.md">
+      <Filter>lvgl\docs\widgets\extra</Filter>
+    </None>
+    <None Include="lvgl\docs\widgets\extra\tileview.md">
+      <Filter>lvgl\docs\widgets\extra</Filter>
+    </None>
+    <None Include="lvgl\docs\widgets\extra\win.md">
+      <Filter>lvgl\docs\widgets\extra</Filter>
+    </None>
+    <None Include="lvgl\docs\widgets\index.md">
+      <Filter>lvgl\docs\widgets</Filter>
+    </None>
+    <None Include="lvgl\docs\widgets\obj.md">
+      <Filter>lvgl\docs\widgets</Filter>
+    </None>
+    <None Include="lvgl\docs\_ext\lv_example.py">
+      <Filter>lvgl\docs\_ext</Filter>
+    </None>
+    <None Include="lvgl\docs\_static\css\custom.css">
+      <Filter>lvgl\docs\_static\css</Filter>
+    </None>
+    <None Include="lvgl\docs\_static\css\fontawesome.min.css">
+      <Filter>lvgl\docs\_static\css</Filter>
+    </None>
+    <None Include="lvgl\docs\_static\img\home_1.png">
+      <Filter>lvgl\docs\_static\img</Filter>
+    </None>
+    <None Include="lvgl\docs\_static\img\home_2.png">
+      <Filter>lvgl\docs\_static\img</Filter>
+    </None>
+    <None Include="lvgl\docs\_static\img\home_3.png">
+      <Filter>lvgl\docs\_static\img</Filter>
+    </None>
+    <None Include="lvgl\docs\_static\img\home_4.png">
+      <Filter>lvgl\docs\_static\img</Filter>
+    </None>
+    <None Include="lvgl\docs\_static\img\home_5.png">
+      <Filter>lvgl\docs\_static\img</Filter>
+    </None>
+    <None Include="lvgl\docs\_static\img\home_6.png">
+      <Filter>lvgl\docs\_static\img</Filter>
+    </None>
+    <None Include="lvgl\docs\_static\img\home_banner.jpg">
+      <Filter>lvgl\docs\_static\img</Filter>
+    </None>
+    <None Include="lvgl\docs\_templates\layout.html">
+      <Filter>lvgl\docs\_templates</Filter>
+    </None>
+    <None Include="lvgl\docs\_templates\page.html">
+      <Filter>lvgl\docs\_templates</Filter>
+    </None>
+    <None Include="lvgl\docs\build.py">
+      <Filter>lvgl\docs</Filter>
+    </None>
+    <None Include="lvgl\docs\CHANGELOG.md">
+      <Filter>lvgl\docs</Filter>
+    </None>
+    <None Include="lvgl\docs\CODE_OF_CONDUCT.md">
+      <Filter>lvgl\docs</Filter>
+    </None>
+    <None Include="lvgl\docs\CODING_STYLE.md">
+      <Filter>lvgl\docs</Filter>
+    </None>
+    <None Include="lvgl\docs\conf.py">
+      <Filter>lvgl\docs</Filter>
+    </None>
+    <None Include="lvgl\docs\CONTRIBUTING.md">
+      <Filter>lvgl\docs</Filter>
+    </None>
+    <None Include="lvgl\docs\example_list.py">
+      <Filter>lvgl\docs</Filter>
+    </None>
+    <None Include="lvgl\docs\favicon.png">
+      <Filter>lvgl\docs</Filter>
+    </None>
+    <None Include="lvgl\docs\header.rst">
+      <Filter>lvgl\docs</Filter>
+    </None>
+    <None Include="lvgl\docs\index.md">
+      <Filter>lvgl\docs</Filter>
+    </None>
+    <None Include="lvgl\docs\logo_lvgl.png">
+      <Filter>lvgl\docs</Filter>
+    </None>
+    <None Include="lvgl\docs\requirements.txt">
+      <Filter>lvgl\docs</Filter>
+    </None>
+    <None Include="lvgl\docs\ROADMAP.md">
+      <Filter>lvgl\docs</Filter>
+    </None>
+    <None Include="lvgl\examples\anim\index.rst">
+      <Filter>lvgl\examples\anim</Filter>
+    </None>
+    <None Include="lvgl\examples\anim\lv_example_anim_1.py">
+      <Filter>lvgl\examples\anim</Filter>
+    </None>
+    <None Include="lvgl\examples\anim\lv_example_anim_2.py">
+      <Filter>lvgl\examples\anim</Filter>
+    </None>
+    <None Include="lvgl\examples\arduino\LVGL_Arduino\LVGL_Arduino.ino">
+      <Filter>lvgl\examples\arduino\LVGL_Arduino</Filter>
+    </None>
+    <None Include="lvgl\examples\assets\animimg001.png">
+      <Filter>lvgl\examples\assets</Filter>
+    </None>
+    <None Include="lvgl\examples\assets\animimg002.png">
+      <Filter>lvgl\examples\assets</Filter>
+    </None>
+    <None Include="lvgl\examples\assets\animimg003.png">
+      <Filter>lvgl\examples\assets</Filter>
+    </None>
+    <None Include="lvgl\examples\assets\caret_down.png">
+      <Filter>lvgl\examples\assets</Filter>
+    </None>
+    <None Include="lvgl\examples\assets\imgbtn_left.png">
+      <Filter>lvgl\examples\assets</Filter>
+    </None>
+    <None Include="lvgl\examples\assets\imgbtn_mid.png">
+      <Filter>lvgl\examples\assets</Filter>
+    </None>
+    <None Include="lvgl\examples\assets\imgbtn_right.png">
+      <Filter>lvgl\examples\assets</Filter>
+    </None>
+    <None Include="lvgl\examples\assets\img_cogwheel_argb.png">
+      <Filter>lvgl\examples\assets</Filter>
+    </None>
+    <None Include="lvgl\examples\assets\img_cogwheel_chroma_keyed.png">
+      <Filter>lvgl\examples\assets</Filter>
+    </None>
+    <None Include="lvgl\examples\assets\img_cogwheel_indexed16.png">
+      <Filter>lvgl\examples\assets</Filter>
+    </None>
+    <None Include="lvgl\examples\assets\img_cogwheel_rgb.png">
+      <Filter>lvgl\examples\assets</Filter>
+    </None>
+    <None Include="lvgl\examples\assets\img_hand_min.png">
+      <Filter>lvgl\examples\assets</Filter>
+    </None>
+    <None Include="lvgl\examples\assets\img_star.png">
+      <Filter>lvgl\examples\assets</Filter>
+    </None>
+    <None Include="lvgl\examples\assets\img_strip.png">
+      <Filter>lvgl\examples\assets</Filter>
+    </None>
+    <None Include="lvgl\examples\assets\skew_strip.png">
+      <Filter>lvgl\examples\assets</Filter>
+    </None>
+    <None Include="lvgl\examples\assets\star.png">
+      <Filter>lvgl\examples\assets</Filter>
+    </None>
+    <None Include="lvgl\examples\event\index.rst">
+      <Filter>lvgl\examples\event</Filter>
+    </None>
+    <None Include="lvgl\examples\event\lv_example_event_1.py">
+      <Filter>lvgl\examples\event</Filter>
+    </None>
+    <None Include="lvgl\examples\event\lv_example_event_2.py">
+      <Filter>lvgl\examples\event</Filter>
+    </None>
+    <None Include="lvgl\examples\event\lv_example_event_3.py">
+      <Filter>lvgl\examples\event</Filter>
+    </None>
+    <None Include="lvgl\examples\get_started\index.rst">
+      <Filter>lvgl\examples\get_started</Filter>
+    </None>
+    <None Include="lvgl\examples\get_started\lv_example_get_started_1.py">
+      <Filter>lvgl\examples\get_started</Filter>
+    </None>
+    <None Include="lvgl\examples\get_started\lv_example_get_started_2.py">
+      <Filter>lvgl\examples\get_started</Filter>
+    </None>
+    <None Include="lvgl\examples\get_started\lv_example_get_started_3.py">
+      <Filter>lvgl\examples\get_started</Filter>
+    </None>
+    <None Include="lvgl\examples\layouts\flex\index.rst">
+      <Filter>lvgl\examples\layouts\flex</Filter>
+    </None>
+    <None Include="lvgl\examples\layouts\flex\lv_example_flex_1.py">
+      <Filter>lvgl\examples\layouts\flex</Filter>
+    </None>
+    <None Include="lvgl\examples\layouts\flex\lv_example_flex_2.py">
+      <Filter>lvgl\examples\layouts\flex</Filter>
+    </None>
+    <None Include="lvgl\examples\layouts\flex\lv_example_flex_3.py">
+      <Filter>lvgl\examples\layouts\flex</Filter>
+    </None>
+    <None Include="lvgl\examples\layouts\flex\lv_example_flex_4.py">
+      <Filter>lvgl\examples\layouts\flex</Filter>
+    </None>
+    <None Include="lvgl\examples\layouts\flex\lv_example_flex_5.py">
+      <Filter>lvgl\examples\layouts\flex</Filter>
+    </None>
+    <None Include="lvgl\examples\layouts\flex\lv_example_flex_6.py">
+      <Filter>lvgl\examples\layouts\flex</Filter>
+    </None>
+    <None Include="lvgl\examples\layouts\grid\index.rst">
+      <Filter>lvgl\examples\layouts\grid</Filter>
+    </None>
+    <None Include="lvgl\examples\layouts\grid\lv_example_grid_1.py">
+      <Filter>lvgl\examples\layouts\grid</Filter>
+    </None>
+    <None Include="lvgl\examples\layouts\grid\lv_example_grid_2.py">
+      <Filter>lvgl\examples\layouts\grid</Filter>
+    </None>
+    <None Include="lvgl\examples\layouts\grid\lv_example_grid_3.py">
+      <Filter>lvgl\examples\layouts\grid</Filter>
+    </None>
+    <None Include="lvgl\examples\layouts\grid\lv_example_grid_4.py">
+      <Filter>lvgl\examples\layouts\grid</Filter>
+    </None>
+    <None Include="lvgl\examples\layouts\grid\lv_example_grid_5.py">
+      <Filter>lvgl\examples\layouts\grid</Filter>
+    </None>
+    <None Include="lvgl\examples\layouts\grid\lv_example_grid_6.py">
+      <Filter>lvgl\examples\layouts\grid</Filter>
+    </None>
+    <None Include="lvgl\examples\scroll\index.rst">
+      <Filter>lvgl\examples\scroll</Filter>
+    </None>
+    <None Include="lvgl\examples\scroll\lv_example_scroll_1.py">
+      <Filter>lvgl\examples\scroll</Filter>
+    </None>
+    <None Include="lvgl\examples\scroll\lv_example_scroll_2.py">
+      <Filter>lvgl\examples\scroll</Filter>
+    </None>
+    <None Include="lvgl\examples\scroll\lv_example_scroll_3.py">
+      <Filter>lvgl\examples\scroll</Filter>
+    </None>
+    <None Include="lvgl\examples\scroll\lv_example_scroll_4.py">
+      <Filter>lvgl\examples\scroll</Filter>
+    </None>
+    <None Include="lvgl\examples\scroll\lv_example_scroll_5.py">
+      <Filter>lvgl\examples\scroll</Filter>
+    </None>
+    <None Include="lvgl\examples\scroll\lv_example_scroll_6.py">
+      <Filter>lvgl\examples\scroll</Filter>
+    </None>
+    <None Include="lvgl\examples\styles\index.rst">
+      <Filter>lvgl\examples\styles</Filter>
+    </None>
+    <None Include="lvgl\examples\styles\lv_example_style_1.py">
+      <Filter>lvgl\examples\styles</Filter>
+    </None>
+    <None Include="lvgl\examples\styles\lv_example_style_10.py">
+      <Filter>lvgl\examples\styles</Filter>
+    </None>
+    <None Include="lvgl\examples\styles\lv_example_style_11.py">
+      <Filter>lvgl\examples\styles</Filter>
+    </None>
+    <None Include="lvgl\examples\styles\lv_example_style_12.py">
+      <Filter>lvgl\examples\styles</Filter>
+    </None>
+    <None Include="lvgl\examples\styles\lv_example_style_13.py">
+      <Filter>lvgl\examples\styles</Filter>
+    </None>
+    <None Include="lvgl\examples\styles\lv_example_style_14.py">
+      <Filter>lvgl\examples\styles</Filter>
+    </None>
+    <None Include="lvgl\examples\styles\lv_example_style_2.py">
+      <Filter>lvgl\examples\styles</Filter>
+    </None>
+    <None Include="lvgl\examples\styles\lv_example_style_3.py">
+      <Filter>lvgl\examples\styles</Filter>
+    </None>
+    <None Include="lvgl\examples\styles\lv_example_style_4.py">
+      <Filter>lvgl\examples\styles</Filter>
+    </None>
+    <None Include="lvgl\examples\styles\lv_example_style_5.py">
+      <Filter>lvgl\examples\styles</Filter>
+    </None>
+    <None Include="lvgl\examples\styles\lv_example_style_6.py">
+      <Filter>lvgl\examples\styles</Filter>
+    </None>
+    <None Include="lvgl\examples\styles\lv_example_style_7.py">
+      <Filter>lvgl\examples\styles</Filter>
+    </None>
+    <None Include="lvgl\examples\styles\lv_example_style_8.py">
+      <Filter>lvgl\examples\styles</Filter>
+    </None>
+    <None Include="lvgl\examples\styles\lv_example_style_9.py">
+      <Filter>lvgl\examples\styles</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\animimg\lv_example_animimg_1.py">
+      <Filter>lvgl\examples\widgets\animimg</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\arc\index.rst">
+      <Filter>lvgl\examples\widgets\arc</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\arc\lv_example_arc_1.py">
+      <Filter>lvgl\examples\widgets\arc</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\arc\lv_example_arc_2.py">
+      <Filter>lvgl\examples\widgets\arc</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\bar\index.rst">
+      <Filter>lvgl\examples\widgets\bar</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\bar\lv_example_bar_1.py">
+      <Filter>lvgl\examples\widgets\bar</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\bar\lv_example_bar_2.py">
+      <Filter>lvgl\examples\widgets\bar</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\bar\lv_example_bar_3.py">
+      <Filter>lvgl\examples\widgets\bar</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\bar\lv_example_bar_4.py">
+      <Filter>lvgl\examples\widgets\bar</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\bar\lv_example_bar_5.py">
+      <Filter>lvgl\examples\widgets\bar</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\bar\lv_example_bar_6.py">
+      <Filter>lvgl\examples\widgets\bar</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\bar\test.py">
+      <Filter>lvgl\examples\widgets\bar</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\btn\index.rst">
+      <Filter>lvgl\examples\widgets\btn</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\btn\lv_example_btn_1.py">
+      <Filter>lvgl\examples\widgets\btn</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\btn\lv_example_btn_2.py">
+      <Filter>lvgl\examples\widgets\btn</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\btn\lv_example_btn_3.py">
+      <Filter>lvgl\examples\widgets\btn</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\btnmatrix\index.rst">
+      <Filter>lvgl\examples\widgets\btnmatrix</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\btnmatrix\lv_example_btnmatrix_1.py">
+      <Filter>lvgl\examples\widgets\btnmatrix</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\btnmatrix\lv_example_btnmatrix_2.py">
+      <Filter>lvgl\examples\widgets\btnmatrix</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\btnmatrix\lv_example_btnmatrix_3.py">
+      <Filter>lvgl\examples\widgets\btnmatrix</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\calendar\index.rst">
+      <Filter>lvgl\examples\widgets\calendar</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\calendar\lv_example_calendar_1.py">
+      <Filter>lvgl\examples\widgets\calendar</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\canvas\index.rst">
+      <Filter>lvgl\examples\widgets\canvas</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\canvas\lv_example_canvas_1.py">
+      <Filter>lvgl\examples\widgets\canvas</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\canvas\lv_example_canvas_2.py">
+      <Filter>lvgl\examples\widgets\canvas</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\chart\index.rst">
+      <Filter>lvgl\examples\widgets\chart</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\chart\lv_example_chart_1.py">
+      <Filter>lvgl\examples\widgets\chart</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\chart\lv_example_chart_2.py">
+      <Filter>lvgl\examples\widgets\chart</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\chart\lv_example_chart_3.py">
+      <Filter>lvgl\examples\widgets\chart</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\chart\lv_example_chart_4.py">
+      <Filter>lvgl\examples\widgets\chart</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\chart\lv_example_chart_5.py">
+      <Filter>lvgl\examples\widgets\chart</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\chart\lv_example_chart_6.py">
+      <Filter>lvgl\examples\widgets\chart</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\chart\lv_example_chart_7.py">
+      <Filter>lvgl\examples\widgets\chart</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\checkbox\index.rst">
+      <Filter>lvgl\examples\widgets\checkbox</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\checkbox\lv_example_checkbox_1.py">
+      <Filter>lvgl\examples\widgets\checkbox</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\colorwheel\index.rst">
+      <Filter>lvgl\examples\widgets\colorwheel</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\colorwheel\lv_example_colorwheel_1.py">
+      <Filter>lvgl\examples\widgets\colorwheel</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\dropdown\index.rst">
+      <Filter>lvgl\examples\widgets\dropdown</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\dropdown\lv_example_dropdown_1.py">
+      <Filter>lvgl\examples\widgets\dropdown</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\dropdown\lv_example_dropdown_2.py">
+      <Filter>lvgl\examples\widgets\dropdown</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\dropdown\lv_example_dropdown_3.py">
+      <Filter>lvgl\examples\widgets\dropdown</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\img\index.rst">
+      <Filter>lvgl\examples\widgets\img</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\img\lv_example_img_1.py">
+      <Filter>lvgl\examples\widgets\img</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\img\lv_example_img_2.py">
+      <Filter>lvgl\examples\widgets\img</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\img\lv_example_img_3.py">
+      <Filter>lvgl\examples\widgets\img</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\img\lv_example_img_4.py">
+      <Filter>lvgl\examples\widgets\img</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\imgbtn\index.rst">
+      <Filter>lvgl\examples\widgets\imgbtn</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\imgbtn\lv_example_imgbtn_1.py">
+      <Filter>lvgl\examples\widgets\imgbtn</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\keyboard\index.rst">
+      <Filter>lvgl\examples\widgets\keyboard</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\keyboard\lv_example_keyboard_1.py">
+      <Filter>lvgl\examples\widgets\keyboard</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\label\index.rst">
+      <Filter>lvgl\examples\widgets\label</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\label\lv_example_label_1.py">
+      <Filter>lvgl\examples\widgets\label</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\label\lv_example_label_2.py">
+      <Filter>lvgl\examples\widgets\label</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\label\lv_example_label_3.py">
+      <Filter>lvgl\examples\widgets\label</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\led\index.rst">
+      <Filter>lvgl\examples\widgets\led</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\led\lv_example_led_1.py">
+      <Filter>lvgl\examples\widgets\led</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\line\index.rst">
+      <Filter>lvgl\examples\widgets\line</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\line\lv_example_line_1.py">
+      <Filter>lvgl\examples\widgets\line</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\list\index.rst">
+      <Filter>lvgl\examples\widgets\list</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\list\lv_example_list_1.py">
+      <Filter>lvgl\examples\widgets\list</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\list\test.py">
+      <Filter>lvgl\examples\widgets\list</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\meter\index.rst">
+      <Filter>lvgl\examples\widgets\meter</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\meter\lv_example_meter_1.py">
+      <Filter>lvgl\examples\widgets\meter</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\meter\lv_example_meter_2.py">
+      <Filter>lvgl\examples\widgets\meter</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\meter\lv_example_meter_3.py">
+      <Filter>lvgl\examples\widgets\meter</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\meter\lv_example_meter_4.py">
+      <Filter>lvgl\examples\widgets\meter</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\msgbox\index.rst">
+      <Filter>lvgl\examples\widgets\msgbox</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\msgbox\lv_example_msgbox_1.py">
+      <Filter>lvgl\examples\widgets\msgbox</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\obj\index.rst">
+      <Filter>lvgl\examples\widgets\obj</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\obj\lv_example_obj_1.py">
+      <Filter>lvgl\examples\widgets\obj</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\obj\lv_example_obj_2.py">
+      <Filter>lvgl\examples\widgets\obj</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\roller\index.rst">
+      <Filter>lvgl\examples\widgets\roller</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\roller\lv_example_roller_1.py">
+      <Filter>lvgl\examples\widgets\roller</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\roller\lv_example_roller_2.py">
+      <Filter>lvgl\examples\widgets\roller</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\roller\lv_example_roller_3.py">
+      <Filter>lvgl\examples\widgets\roller</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\slider\index.rst">
+      <Filter>lvgl\examples\widgets\slider</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\slider\lv_example_slider_1.py">
+      <Filter>lvgl\examples\widgets\slider</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\slider\lv_example_slider_2.py">
+      <Filter>lvgl\examples\widgets\slider</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\slider\lv_example_slider_3.py">
+      <Filter>lvgl\examples\widgets\slider</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\span\index.rst">
+      <Filter>lvgl\examples\widgets\span</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\span\lv_example_span_1.py">
+      <Filter>lvgl\examples\widgets\span</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\spinbox\index.rst">
+      <Filter>lvgl\examples\widgets\spinbox</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\spinbox\lv_example_spinbox_1.py">
+      <Filter>lvgl\examples\widgets\spinbox</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\spinner\index.rst">
+      <Filter>lvgl\examples\widgets\spinner</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\spinner\lv_example_spinner_1.py">
+      <Filter>lvgl\examples\widgets\spinner</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\switch\index.rst">
+      <Filter>lvgl\examples\widgets\switch</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\switch\lv_example_switch_1.py">
+      <Filter>lvgl\examples\widgets\switch</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\table\index.rst">
+      <Filter>lvgl\examples\widgets\table</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\table\lv_example_table_1.py">
+      <Filter>lvgl\examples\widgets\table</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\table\lv_example_table_2.py">
+      <Filter>lvgl\examples\widgets\table</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\tabview\index.rst">
+      <Filter>lvgl\examples\widgets\tabview</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\tabview\lv_example_tabview_1.py">
+      <Filter>lvgl\examples\widgets\tabview</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\textarea\index.rst">
+      <Filter>lvgl\examples\widgets\textarea</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\textarea\lv_example_textarea_1.py">
+      <Filter>lvgl\examples\widgets\textarea</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\textarea\lv_example_textarea_2.py">
+      <Filter>lvgl\examples\widgets\textarea</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\textarea\lv_example_textarea_3.py">
+      <Filter>lvgl\examples\widgets\textarea</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\tileview\index.rst">
+      <Filter>lvgl\examples\widgets\tileview</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\tileview\lv_example_tileview_1.py">
+      <Filter>lvgl\examples\widgets\tileview</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\win\index.rst">
+      <Filter>lvgl\examples\widgets\win</Filter>
+    </None>
+    <None Include="lvgl\examples\widgets\win\lv_example_win_1.py">
+      <Filter>lvgl\examples\widgets\win</Filter>
+    </None>
+    <None Include="lvgl\examples\examples.mk">
+      <Filter>lvgl\examples</Filter>
+    </None>
+    <None Include="lvgl\examples\header.py">
+      <Filter>lvgl\examples</Filter>
+    </None>
+    <None Include="lvgl\examples\test_ex.sh">
+      <Filter>lvgl\examples</Filter>
+    </None>
+    <None Include="lvgl\scripts\built_in_font\built_in_font_gen.py">
+      <Filter>lvgl\scripts\built_in_font</Filter>
+    </None>
+    <None Include="lvgl\scripts\built_in_font\DejaVuSans.ttf">
+      <Filter>lvgl\scripts\built_in_font</Filter>
+    </None>
+    <None Include="lvgl\scripts\built_in_font\FontAwesome5-Solid+Brands+Regular.woff">
+      <Filter>lvgl\scripts\built_in_font</Filter>
+    </None>
+    <None Include="lvgl\scripts\built_in_font\generate_all.py">
+      <Filter>lvgl\scripts\built_in_font</Filter>
+    </None>
+    <None Include="lvgl\scripts\built_in_font\Montserrat-Medium.ttf">
+      <Filter>lvgl\scripts\built_in_font</Filter>
+    </None>
+    <None Include="lvgl\scripts\built_in_font\SimSun.woff">
+      <Filter>lvgl\scripts\built_in_font</Filter>
+    </None>
+    <None Include="lvgl\scripts\built_in_font\unscii-8.ttf">
+      <Filter>lvgl\scripts\built_in_font</Filter>
+    </None>
+    <None Include="lvgl\scripts\release\patch.py">
+      <Filter>lvgl\scripts\release</Filter>
+    </None>
+    <None Include="lvgl\scripts\release\release.py">
+      <Filter>lvgl\scripts\release</Filter>
+    </None>
+    <None Include="lvgl\scripts\build_html_examples.sh">
+      <Filter>lvgl\scripts</Filter>
+    </None>
+    <None Include="lvgl\scripts\code-format.cfg">
+      <Filter>lvgl\scripts</Filter>
+    </None>
+    <None Include="lvgl\scripts\code-format.sh">
+      <Filter>lvgl\scripts</Filter>
+    </None>
+    <None Include="lvgl\scripts\cppcheck_run.sh">
+      <Filter>lvgl\scripts</Filter>
+    </None>
+    <None Include="lvgl\scripts\Doxyfile">
+      <Filter>lvgl\scripts</Filter>
+    </None>
+    <None Include="lvgl\scripts\find_version.sh">
+      <Filter>lvgl\scripts</Filter>
+    </None>
+    <None Include="lvgl\scripts\genexamplelist.sh">
+      <Filter>lvgl\scripts</Filter>
+    </None>
+    <None Include="lvgl\scripts\infer_run.sh">
+      <Filter>lvgl\scripts</Filter>
+    </None>
+    <None Include="lvgl\scripts\lv_conf_internal_gen.py">
+      <Filter>lvgl\scripts</Filter>
+    </None>
+    <None Include="lvgl\scripts\style_api_gen.py">
+      <Filter>lvgl\scripts</Filter>
+    </None>
+    <None Include="lvgl\src\core\lv_core.mk">
+      <Filter>lvgl\src\core</Filter>
+    </None>
+    <None Include="lvgl\src\draw\lv_draw.mk">
+      <Filter>lvgl\src\draw</Filter>
+    </None>
+    <None Include="lvgl\src\extra\extra.mk">
+      <Filter>lvgl\src\extra</Filter>
+    </None>
+    <None Include="lvgl\src\extra\README.md">
+      <Filter>lvgl\src\extra</Filter>
+    </None>
+    <None Include="lvgl\src\font\korean.ttf">
+      <Filter>lvgl\src\font</Filter>
+    </None>
+    <None Include="lvgl\src\font\lv_font.mk">
+      <Filter>lvgl\src\font</Filter>
+    </None>
+    <None Include="lvgl\src\gpu\lv_gpu.mk">
+      <Filter>lvgl\src\gpu</Filter>
+    </None>
+    <None Include="lvgl\src\hal\lv_hal.mk">
+      <Filter>lvgl\src\hal</Filter>
+    </None>
+    <None Include="lvgl\src\misc\lv_misc.mk">
+      <Filter>lvgl\src\misc</Filter>
+    </None>
+    <None Include="lvgl\src\widgets\lv_widgets.mk">
+      <Filter>lvgl\src\widgets</Filter>
+    </None>
+    <None Include="lvgl\tests\lv_test_ref_imgs\lv_test_img32_label_1.png">
+      <Filter>lvgl\tests\lv_test_ref_imgs</Filter>
+    </None>
+    <None Include="lvgl\tests\build.py">
+      <Filter>lvgl\tests</Filter>
+    </None>
+    <None Include="lvgl\tests\font_1.fnt">
+      <Filter>lvgl\tests</Filter>
+    </None>
+    <None Include="lvgl\tests\font_2.fnt">
+      <Filter>lvgl\tests</Filter>
+    </None>
+    <None Include="lvgl\tests\font_3.fnt">
+      <Filter>lvgl\tests</Filter>
+    </None>
+    <None Include="lvgl\tests\icon.png">
+      <Filter>lvgl\tests</Filter>
+    </None>
+    <None Include="lvgl\tests\icon2.png">
+      <Filter>lvgl\tests</Filter>
+    </None>
+    <None Include="lvgl\tests\Makefile">
+      <Filter>lvgl\tests</Filter>
+    </None>
+    <None Include="lvgl\zephyr\module.yml">
+      <Filter>lvgl\zephyr</Filter>
+    </None>
+    <None Include="lvgl\.editorconfig">
+      <Filter>lvgl</Filter>
+    </None>
+    <None Include="lvgl\.git">
+      <Filter>lvgl</Filter>
+    </None>
+    <None Include="lvgl\.gitignore">
+      <Filter>lvgl</Filter>
+    </None>
+    <None Include="lvgl\.gitmodules">
+      <Filter>lvgl</Filter>
+    </None>
+    <None Include="lvgl\CMakeLists.txt">
+      <Filter>lvgl</Filter>
+    </None>
+    <None Include="lvgl\component.mk">
+      <Filter>lvgl</Filter>
+    </None>
+    <None Include="lvgl\Kconfig">
+      <Filter>lvgl</Filter>
+    </None>
+    <None Include="lvgl\library.json">
+      <Filter>lvgl</Filter>
+    </None>
+    <None Include="lvgl\library.properties">
+      <Filter>lvgl</Filter>
+    </None>
+    <None Include="lvgl\LICENCE.txt">
+      <Filter>lvgl</Filter>
+    </None>
+    <None Include="lvgl\lvgl.mk">
+      <Filter>lvgl</Filter>
+    </None>
+    <None Include="lvgl\README.md">
+      <Filter>lvgl</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="lv_demos">
+      <UniqueIdentifier>{9fbef809-7924-499b-81dd-1f17a2547e26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv_demos\.github">
+      <UniqueIdentifier>{e48c1a5f-630a-4674-b7de-553ba34859fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv_demos\docs">
+      <UniqueIdentifier>{1d12a3fa-a94c-49af-b63e-1d1bcb9f2f9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv_demos\scripts">
+      <UniqueIdentifier>{bbba79b7-e176-496d-8887-528e515765cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv_demos\src">
+      <UniqueIdentifier>{cb14a5f4-e5b9-46da-a9fb-e76df85adf4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv_demos\src\lv_demo_benchmark">
+      <UniqueIdentifier>{ac23436e-0918-452f-8cee-8120fb272b98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv_demos\src\lv_demo_keypad_encoder">
+      <UniqueIdentifier>{72e0aacc-ad0e-4272-b896-3c6661485954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv_demos\src\lv_demo_music">
+      <UniqueIdentifier>{526c426f-4540-4311-beea-68f9c6f61e79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv_demos\src\lv_demo_music\assets">
+      <UniqueIdentifier>{bfd03cf4-eabe-4670-a115-cf30b3ff8d24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv_demos\src\lv_demo_music\assets\__pycache__">
+      <UniqueIdentifier>{9a69f750-a5c2-4c7e-ace0-fdc859c1491c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv_demos\src\lv_demo_stress">
+      <UniqueIdentifier>{86ebabaa-330d-4a02-8896-8575aadb5816}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv_demos\src\lv_demo_stress\assets">
+      <UniqueIdentifier>{6e3ed57c-d248-4b12-bc22-b25061199a6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv_demos\src\lv_demo_widgets">
+      <UniqueIdentifier>{305f750b-df22-4322-bf31-0e39744309f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv_demos\src\lv_demo_widgets\assets">
+      <UniqueIdentifier>{ed664726-ae01-4320-9db1-8cbbe195f136}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lv_demos\src\lv_demo_benchmark\lv_demo_benchmark.h">
+      <Filter>lv_demos\src\lv_demo_benchmark</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_demos\src\lv_demo_keypad_encoder\lv_demo_keypad_encoder.h">
+      <Filter>lv_demos\src\lv_demo_keypad_encoder</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_demos\src\lv_demo_music\assets\spectrum_1.h">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_demos\src\lv_demo_music\assets\spectrum_2.h">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_demos\src\lv_demo_music\assets\spectrum_3.h">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_demos\src\lv_demo_music\lv_demo_music.h">
+      <Filter>lv_demos\src\lv_demo_music</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_demos\src\lv_demo_music\lv_demo_music_list.h">
+      <Filter>lv_demos\src\lv_demo_music</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_demos\src\lv_demo_music\lv_demo_music_main.h">
+      <Filter>lv_demos\src\lv_demo_music</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_demos\src\lv_demo_stress\lv_demo_stress.h">
+      <Filter>lv_demos\src\lv_demo_stress</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_demos\src\lv_demo_widgets\lv_demo_widgets.h">
+      <Filter>lv_demos\src\lv_demo_widgets</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_demos\src\lv_demo.h">
+      <Filter>lv_demos\src</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_demos\lv_demo.h">
+      <Filter>lv_demos</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_demos\lv_demo_conf_template.h">
+      <Filter>lv_demos</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lv_demos\src\lv_demo_benchmark\lv_demo_benchmark.c">
+      <Filter>lv_demos\src\lv_demo_benchmark</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_keypad_encoder\lv_demo_keypad_encoder.c">
+      <Filter>lv_demos\src\lv_demo_keypad_encoder</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_btn_corner_large.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_btn_list_pause.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_btn_list_pause_large.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_btn_list_play.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_btn_list_play_large.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_btn_loop.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_btn_loop_large.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_btn_next.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_btn_next_large.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_btn_pause.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_btn_pause_large.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_btn_play.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_btn_play_large.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_btn_prev.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_btn_prev_large.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_btn_rnd.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_btn_rnd_large.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_corner_left.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_corner_left_large.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_corner_right.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_corner_right_large.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_cover_1.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_cover_1_large.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_cover_2.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_cover_2_large.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_cover_3.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_cover_3_large.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_icon_1.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_icon_1_large.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_icon_2.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_icon_2_large.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_icon_3.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_icon_3_large.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_icon_4.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_icon_4_large.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_list_border.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_list_border_large.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_logo.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_slider_knob.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_slider_knob_large.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_wave_bottom.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_wave_bottom_large.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_wave_top.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\assets\img_lv_demo_music_wave_top_large.c">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\lv_demo_music.c">
+      <Filter>lv_demos\src\lv_demo_music</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\lv_demo_music_list.c">
+      <Filter>lv_demos\src\lv_demo_music</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_music\lv_demo_music_main.c">
+      <Filter>lv_demos\src\lv_demo_music</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_stress\assets\lv_font_montserrat_12_compr_az.c">
+      <Filter>lv_demos\src\lv_demo_stress\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_stress\assets\lv_font_montserrat_16_compr_az.c">
+      <Filter>lv_demos\src\lv_demo_stress\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_stress\assets\lv_font_montserrat_28_compr_az.c">
+      <Filter>lv_demos\src\lv_demo_stress\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_stress\lv_demo_stress.c">
+      <Filter>lv_demos\src\lv_demo_stress</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_widgets\assets\img_clothes.c">
+      <Filter>lv_demos\src\lv_demo_widgets\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_widgets\assets\img_demo_widgets_avatar.c">
+      <Filter>lv_demos\src\lv_demo_widgets\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_widgets\assets\img_lvgl_logo.c">
+      <Filter>lv_demos\src\lv_demo_widgets\assets</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_demos\src\lv_demo_widgets\lv_demo_widgets.c">
+      <Filter>lv_demos\src\lv_demo_widgets</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lv_demos\.github\auto-comment.yml">
+      <Filter>lv_demos\.github</Filter>
+    </None>
+    <None Include="lv_demos\.github\stale.yml">
+      <Filter>lv_demos\.github</Filter>
+    </None>
+    <None Include="lv_demos\docs\LICENSE.md">
+      <Filter>lv_demos\docs</Filter>
+    </None>
+    <None Include="lv_demos\scripts\build_all_examples.sh">
+      <Filter>lv_demos\scripts</Filter>
+    </None>
+    <None Include="lv_demos\scripts\examples.txt">
+      <Filter>lv_demos\scripts</Filter>
+    </None>
+    <None Include="lv_demos\scripts\genexamplestxt.sh">
+      <Filter>lv_demos\scripts</Filter>
+    </None>
+    <None Include="lv_demos\src\lv_demo_benchmark\README.md">
+      <Filter>lv_demos\src\lv_demo_benchmark</Filter>
+    </None>
+    <None Include="lv_demos\src\lv_demo_benchmark\screenshot1.png">
+      <Filter>lv_demos\src\lv_demo_benchmark</Filter>
+    </None>
+    <None Include="lv_demos\src\lv_demo_benchmark\screenshot2.png">
+      <Filter>lv_demos\src\lv_demo_benchmark</Filter>
+    </None>
+    <None Include="lv_demos\src\lv_demo_keypad_encoder\README.md">
+      <Filter>lv_demos\src\lv_demo_keypad_encoder</Filter>
+    </None>
+    <None Include="lv_demos\src\lv_demo_keypad_encoder\screenshot1.gif">
+      <Filter>lv_demos\src\lv_demo_keypad_encoder</Filter>
+    </None>
+    <None Include="lv_demos\src\lv_demo_keypad_encoder\screenshot1.png">
+      <Filter>lv_demos\src\lv_demo_keypad_encoder</Filter>
+    </None>
+    <None Include="lv_demos\src\lv_demo_music\assets\__pycache__\spectrum.cpython-36.pyc">
+      <Filter>lv_demos\src\lv_demo_music\assets\__pycache__</Filter>
+    </None>
+    <None Include="lv_demos\src\lv_demo_music\assets\spectrum.py">
+      <Filter>lv_demos\src\lv_demo_music\assets</Filter>
+    </None>
+    <None Include="lv_demos\src\lv_demo_music\README.md">
+      <Filter>lv_demos\src\lv_demo_music</Filter>
+    </None>
+    <None Include="lv_demos\src\lv_demo_music\screenshot1.gif">
+      <Filter>lv_demos\src\lv_demo_music</Filter>
+    </None>
+    <None Include="lv_demos\src\lv_demo_stress\README.md">
+      <Filter>lv_demos\src\lv_demo_stress</Filter>
+    </None>
+    <None Include="lv_demos\src\lv_demo_stress\screenshot1.gif">
+      <Filter>lv_demos\src\lv_demo_stress</Filter>
+    </None>
+    <None Include="lv_demos\src\lv_demo_stress\screenshot1.png">
+      <Filter>lv_demos\src\lv_demo_stress</Filter>
+    </None>
+    <None Include="lv_demos\src\lv_demo_widgets\assets\avatar.png">
+      <Filter>lv_demos\src\lv_demo_widgets\assets</Filter>
+    </None>
+    <None Include="lv_demos\src\lv_demo_widgets\assets\clothes.png">
+      <Filter>lv_demos\src\lv_demo_widgets\assets</Filter>
+    </None>
+    <None Include="lv_demos\src\lv_demo_widgets\assets\lvgl_logo.png">
+      <Filter>lv_demos\src\lv_demo_widgets\assets</Filter>
+    </None>
+    <None Include="lv_demos\src\lv_demo_widgets\lv_demo_widgets.py">
+      <Filter>lv_demos\src\lv_demo_widgets</Filter>
+    </None>
+    <None Include="lv_demos\src\lv_demo_widgets\screenshot1.gif">
+      <Filter>lv_demos\src\lv_demo_widgets</Filter>
+    </None>
+    <None Include="lv_demos\src\lv_demo_widgets\screenshot1.png">
+      <Filter>lv_demos\src\lv_demo_widgets</Filter>
+    </None>
+    <None Include="lv_demos\src\header.py">
+      <Filter>lv_demos\src</Filter>
+    </None>
+    <None Include="lv_demos\.git">
+      <Filter>lv_demos</Filter>
+    </None>
+    <None Include="lv_demos\.gitignore">
+      <Filter>lv_demos</Filter>
+    </None>
+    <None Include="lv_demos\CMakeLists.txt">
+      <Filter>lv_demos</Filter>
+    </None>
+    <None Include="lv_demos\library.properties">
+      <Filter>lv_demos</Filter>
+    </None>
+    <None Include="lv_demos\lv_demo.mk">
+      <Filter>lv_demos</Filter>
+    </None>
+    <None Include="lv_demos\README.md">
+      <Filter>lv_demos</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="lv_drivers">
+      <UniqueIdentifier>{5c2d32ca-84df-4bda-b2a3-120a76b8a8bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv_drivers\.github">
+      <UniqueIdentifier>{50422c70-405c-4d44-8cf1-4336ff77dd3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv_drivers\display">
+      <UniqueIdentifier>{2bb19b20-1d61-45c4-8a7f-c1ff996d62a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv_drivers\docs">
+      <UniqueIdentifier>{3480e1e0-d5ef-4b2b-a9f4-193bd0700ac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv_drivers\gtkdrv">
+      <UniqueIdentifier>{cea06efe-985e-4f0f-ac7f-b1df53ae2e33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv_drivers\indev">
+      <UniqueIdentifier>{9e05abc8-a4e3-40fa-b04c-a532cdacbc35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv_drivers\wayland">
+      <UniqueIdentifier>{3250530b-b2cd-4898-8a3a-671a2d8f01b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv_drivers\win32drv">
+      <UniqueIdentifier>{756c2b35-5485-41ee-a2ba-ff42c6397801}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lv_drivers\display\drm.h">
+      <Filter>lv_drivers\display</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\display\fbdev.h">
+      <Filter>lv_drivers\display</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\display\GC9A01.h">
+      <Filter>lv_drivers\display</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\display\ILI9341.h">
+      <Filter>lv_drivers\display</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\display\monitor.h">
+      <Filter>lv_drivers\display</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\display\R61581.h">
+      <Filter>lv_drivers\display</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\display\SHARP_MIP.h">
+      <Filter>lv_drivers\display</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\display\SSD1963.h">
+      <Filter>lv_drivers\display</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\display\ST7565.h">
+      <Filter>lv_drivers\display</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\display\UC1610.h">
+      <Filter>lv_drivers\display</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\gtkdrv\gtkdrv.h">
+      <Filter>lv_drivers\gtkdrv</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\indev\AD_touch.h">
+      <Filter>lv_drivers\indev</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\indev\evdev.h">
+      <Filter>lv_drivers\indev</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\indev\FT5406EE8.h">
+      <Filter>lv_drivers\indev</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\indev\keyboard.h">
+      <Filter>lv_drivers\indev</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\indev\libinput_drv.h">
+      <Filter>lv_drivers\indev</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\indev\mouse.h">
+      <Filter>lv_drivers\indev</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\indev\mousewheel.h">
+      <Filter>lv_drivers\indev</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\indev\XPT2046.h">
+      <Filter>lv_drivers\indev</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\wayland\wayland.h">
+      <Filter>lv_drivers\wayland</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\win32drv\win32drv.h">
+      <Filter>lv_drivers\win32drv</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\lv_drv_conf_template.h">
+      <Filter>lv_drivers</Filter>
+    </ClInclude>
+    <ClInclude Include="lv_drivers\win_drv.h">
+      <Filter>lv_drivers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lv_drivers\display\drm.c">
+      <Filter>lv_drivers\display</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\display\fbdev.c">
+      <Filter>lv_drivers\display</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\display\GC9A01.c">
+      <Filter>lv_drivers\display</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\display\ILI9341.c">
+      <Filter>lv_drivers\display</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\display\monitor.c">
+      <Filter>lv_drivers\display</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\display\R61581.c">
+      <Filter>lv_drivers\display</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\display\SHARP_MIP.c">
+      <Filter>lv_drivers\display</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\display\SSD1963.c">
+      <Filter>lv_drivers\display</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\display\ST7565.c">
+      <Filter>lv_drivers\display</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\display\UC1610.c">
+      <Filter>lv_drivers\display</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\gtkdrv\gtkdrv.c">
+      <Filter>lv_drivers\gtkdrv</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\indev\AD_touch.c">
+      <Filter>lv_drivers\indev</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\indev\evdev.c">
+      <Filter>lv_drivers\indev</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\indev\FT5406EE8.c">
+      <Filter>lv_drivers\indev</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\indev\keyboard.c">
+      <Filter>lv_drivers\indev</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\indev\libinput.c">
+      <Filter>lv_drivers\indev</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\indev\mouse.c">
+      <Filter>lv_drivers\indev</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\indev\mousewheel.c">
+      <Filter>lv_drivers\indev</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\indev\XPT2046.c">
+      <Filter>lv_drivers\indev</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\wayland\wayland.c">
+      <Filter>lv_drivers\wayland</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\win32drv\win32drv.c">
+      <Filter>lv_drivers\win32drv</Filter>
+    </ClCompile>
+    <ClCompile Include="lv_drivers\win_drv.c">
+      <Filter>lv_drivers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lv_drivers\.github\auto-comment.yml">
+      <Filter>lv_drivers\.github</Filter>
+    </None>
+    <None Include="lv_drivers\.github\stale.yml">
+      <Filter>lv_drivers\.github</Filter>
+    </None>
+    <None Include="lv_drivers\docs\astyle_c">
+      <Filter>lv_drivers\docs</Filter>
+    </None>
+    <None Include="lv_drivers\docs\astyle_h">
+      <Filter>lv_drivers\docs</Filter>
+    </None>
+    <None Include="lv_drivers\gtkdrv\broadway.png">
+      <Filter>lv_drivers\gtkdrv</Filter>
+    </None>
+    <None Include="lv_drivers\gtkdrv\README.md">
+      <Filter>lv_drivers\gtkdrv</Filter>
+    </None>
+    <None Include="lv_drivers\wayland\README.md">
+      <Filter>lv_drivers\wayland</Filter>
+    </None>
+    <None Include="lv_drivers\.git">
+      <Filter>lv_drivers</Filter>
+    </None>
+    <None Include="lv_drivers\.gitignore">
+      <Filter>lv_drivers</Filter>
+    </None>
+    <None Include="lv_drivers\CMakeLists.txt">
+      <Filter>lv_drivers</Filter>
+    </None>
+    <None Include="lv_drivers\library.json">
+      <Filter>lv_drivers</Filter>
+    </None>
+    <None Include="lv_drivers\LICENSE">
+      <Filter>lv_drivers</Filter>
+    </None>
+    <None Include="lv_drivers\lv_drivers.mk">
+      <Filter>lv_drivers</Filter>
+    </None>
+    <None Include="lv_drivers\README.md">
+      <Filter>lv_drivers</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="lv_lib_freetype">
+      <UniqueIdentifier>{e6464180-a92e-4997-9048-c523931c3079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lv_lib_freetype\.github">
+      <UniqueIdentifier>{47b3a329-efcd-49c3-a53a-288a5533762c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lv_lib_freetype\lv_freetype.h">
+      <Filter>lv_lib_freetype</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lv_lib_freetype\lv_freetype.c">
+      <Filter>lv_lib_freetype</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lv_lib_freetype\.github\auto-comment.yml">
+      <Filter>lv_lib_freetype\.github</Filter>
+    </None>
+    <None Include="lv_lib_freetype\.git">
+      <Filter>lv_lib_freetype</Filter>
+    </None>
+    <None Include="lv_lib_freetype\arial.ttf">
+      <Filter>lv_lib_freetype</Filter>
+    </None>
+    <None Include="lv_lib_freetype\LICENSE">
+      <Filter>lv_lib_freetype</Filter>
+    </None>
+    <None Include="lv_lib_freetype\README.md">
+      <Filter>lv_lib_freetype</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lv_conf.h" />
+    <ClInclude Include="lv_drv_conf.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lv_demo_conf.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="LVGL.Simulator.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Mile.Project.Properties.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LVGL.Simulator.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="LVGL.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="freetype.props" />
+  </ItemGroup>
+</Project>
