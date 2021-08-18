@@ -144,7 +144,7 @@ static void timer_cb(lv_timer_t* timer)
 {
     
     updateFrmProcess();
-    LV_LOG_USER("Timer was called ");
+//    LV_LOG_USER("Timer was called ");
 }
 
 
