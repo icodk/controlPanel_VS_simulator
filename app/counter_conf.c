@@ -1,4 +1,6 @@
-﻿
+﻿#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 #include "lvgl/lvgl.h"
 #include "dataStorage.h"
 #include "ui_common.h"
@@ -12,6 +14,7 @@ static counter_id_t counterId;
 static lv_obj_t* kb;
 static lv_obj_t* counterPanel;
 static const char* int_fmt = "%d";
+static bool toSave;
 //----------------------------------------------
 //static void saveValue(lv_obj_t* ta) {
 //
@@ -58,12 +61,16 @@ static void ta_event_cb(lv_event_t * e)
         lv_obj_add_flag(kb, LV_OBJ_FLAG_HIDDEN);
         lv_obj_clear_state(ta, LV_STATE_FOCUSED);
         //---- save the values to the fields
-        
         const char* txt = lv_textarea_get_text(ta);
+#ifdef  _MSC_VER
+        
         *field = (int32_t)atoi(txt);
-       
-
-
+#else
+        if (*field != (int32_t)atoi(txt)) {
+            *field = (int32_t)atoi(txt);
+            toSave = true;
+        }
+#endif
 
     }
     else if (code ==  LV_EVENT_CANCEL  ) {
@@ -89,6 +96,14 @@ static void ta_event_cb(lv_event_t * e)
 
 
 static void home_btn_event_handler(lv_event_t* e) {
+#ifdef  __GNUC_
+    if (toSave) {
+        saveSettings();
+}
+#else // _MSC_VER
+   
+#endif
+
     lv_timer_t** tmr = get_updateTimer();
     lv_timer_set_repeat_count(*tmr, 0);
     frmProcess_init();
@@ -137,7 +152,9 @@ static void resetMsgBox(lv_event_t* e)
 static void     updateFrmConfig(void) {
     counter_t* cnt = get_counter(counterId);
     int32_t* cVal = get_current_count(counterId);
+    #ifdef  _MSC_VER
     (*cVal)++;
+    #endif
     lv_label_set_text_fmt(cnt->displayField, "%d", *cVal);
 
 }
@@ -147,7 +164,7 @@ static void timer_cb(lv_timer_t* timer)
 {
 
     updateFrmConfig();
-    LV_LOG_USER("***");
+    LV_LOG_USER("Timer was called ");
 }
 
 

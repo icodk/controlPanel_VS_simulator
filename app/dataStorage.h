@@ -1,7 +1,8 @@
 ﻿#pragma once
+#ifdef _MCS_VER
 #include <Windows.h>
 #include "resource.h"
-
+#endif
 
 #include "lvgl/lvgl.h"
 
