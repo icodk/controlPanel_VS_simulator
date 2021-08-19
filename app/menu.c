@@ -15,6 +15,7 @@ Date: 2021-08-08
 //----------------------------------------
 //----------------------------------------
  extern void  frmProcess_init(void);
+ extern void frmInfo_init(void);
 
 
 
@@ -25,7 +26,7 @@ static lv_obj_t* win_title;
 //static int event_count[45];
 const menuItem_t* currentMenu;
 static bool may_scroll_up;
-static bool may_scroll_down;
+//static bool may_scroll_down;
 
 //----------------------------------------
 // 
@@ -46,7 +47,7 @@ static void back_btn_event_handler(lv_event_t* e)
 
 static void home_btn_event_handler(lv_event_t* e)
 {
-    lv_obj_t* obj = lv_event_get_target(e);
+   // lv_obj_t* obj = lv_event_get_target(e);
     LV_LOG_USER("Event code %d", e->code);
     frmProcess_init();
     //resetMsgBox();
@@ -55,15 +56,15 @@ static void home_btn_event_handler(lv_event_t* e)
 //----------------------------------------
 static void scroll_up_btn_event_handler(lv_event_t* e)
 {
-    lv_obj_t* obj = lv_event_get_target(e);
+   // lv_obj_t* obj = lv_event_get_target(e);
     LV_LOG_USER("Event code %d", e->code);
     //resetMsgBox();
     /*if (!may_scroll_up) {
         return;
     }*/
     may_scroll_up = false;
-     lv_obj_t* win = get_main_win();
-     lv_obj_t* wcont = lv_win_get_content(win);
+   //  lv_obj_t* win = get_main_win();
+   //  lv_obj_t* wcont = lv_win_get_content(win);
     //lv_list_up(menuList);
     lv_obj_scroll_by(menuList,0, 200, LV_ANIM_ON);
     //lv_obj_scroll_to_view(wcont, LV_ANIM_ON);
@@ -71,10 +72,10 @@ static void scroll_up_btn_event_handler(lv_event_t* e)
 //----------------------------------------
 static void scroll_down_btn_event_handler(lv_event_t* e)
 {
-    lv_obj_t* obj = lv_event_get_target(e);
+   // lv_obj_t* obj = lv_event_get_target(e);
     LV_LOG_USER("Event code %d", e->code);
-    lv_obj_t* win = get_main_win();
-    lv_obj_t* wcont = lv_win_get_content(win);
+  //  lv_obj_t* win = get_main_win();
+  //  lv_obj_t* wcont = lv_win_get_content(win);
     lv_obj_scroll_by(menuList, 0,  -200, LV_ANIM_ON);
     //lv_obj_scroll_to_view(wcont, LV_ANIM_ON);
     //lv_list_down(menuList);
@@ -101,52 +102,47 @@ static void scroll_down_btn_event_handler(lv_event_t* e)
 
 
 #define ITEM_CNT 20
-
-static void draw_event_cb(lv_event_t* e)
-{
-    lv_obj_t* obj = lv_event_get_target(e);
-    lv_obj_draw_part_dsc_t* dsc = lv_event_get_draw_part_dsc(e);
-    //if (e->code != 27) {
-        LV_LOG_USER("Event code %d", e->code);
-    //}
-    
-    /*If the cells are drawn...*/
-    if (dsc->part == LV_PART_ITEMS) {
-
-        //may_scroll_up = true;
-        bool chk = lv_table_has_cell_ctrl(obj, dsc->id, 0, LV_TABLE_CELL_CTRL_CUSTOM_1);
-
-        lv_draw_rect_dsc_t rect_dsc;
-        lv_draw_rect_dsc_init(&rect_dsc);
-        rect_dsc.bg_color = chk ? lv_theme_get_color_primary(obj) : lv_palette_lighten(LV_PALETTE_GREY, 2);
-        rect_dsc.radius = LV_RADIUS_CIRCLE;
-
-        lv_area_t sw_area;
-        sw_area.x1 = dsc->draw_area->x2 - 50;
-        sw_area.x2 = sw_area.x1 + 40;
-        sw_area.y1 = dsc->draw_area->y1 + lv_area_get_height(dsc->draw_area) / 2 - 10;
-        sw_area.y2 = sw_area.y1 + 20;
-        lv_draw_rect(&sw_area, dsc->clip_area, &rect_dsc);
-
-        rect_dsc.bg_color = lv_color_white();
-        if (chk) {
-            sw_area.x2 -= 2;
-            sw_area.x1 = sw_area.x2 - 16;
-        }
-        else {
-            sw_area.x1 += 2;
-            sw_area.x2 = sw_area.x1 + 16;
-        }
-        sw_area.y1 += 2;
-        sw_area.y2 -= 2;
-        lv_draw_rect(&sw_area, dsc->clip_area, &rect_dsc);
-    }
-}
-//----------------------------------------
-static void displayInfo(void) {
-
-
-}
+//
+//static void draw_event_cb(lv_event_t* e)
+//{
+//    lv_obj_t* obj = lv_event_get_target(e);
+//    lv_obj_draw_part_dsc_t* dsc = lv_event_get_draw_part_dsc(e);
+//    //if (e->code != 27) {
+//        LV_LOG_USER("Event code %d", e->code);
+//    //}
+//    
+//    /*If the cells are drawn...*/
+//    if (dsc->part == LV_PART_ITEMS) {
+//
+//        //may_scroll_up = true;
+//        bool chk = lv_table_has_cell_ctrl(obj, dsc->id, 0, LV_TABLE_CELL_CTRL_CUSTOM_1);
+//
+//        lv_draw_rect_dsc_t rect_dsc;
+//        lv_draw_rect_dsc_init(&rect_dsc);
+//        rect_dsc.bg_color = chk ? lv_theme_get_color_primary(obj) : lv_palette_lighten(LV_PALETTE_GREY, 2);
+//        rect_dsc.radius = LV_RADIUS_CIRCLE;
+//
+//        lv_area_t sw_area;
+//        sw_area.x1 = dsc->draw_area->x2 - 50;
+//        sw_area.x2 = sw_area.x1 + 40;
+//        sw_area.y1 = dsc->draw_area->y1 + lv_area_get_height(dsc->draw_area) / 2 - 10;
+//        sw_area.y2 = sw_area.y1 + 20;
+//        lv_draw_rect(&sw_area, dsc->clip_area, &rect_dsc);
+//
+//        rect_dsc.bg_color = lv_color_white();
+//        if (chk) {
+//            sw_area.x2 -= 2;
+//            sw_area.x1 = sw_area.x2 - 16;
+//        }
+//        else {
+//            sw_area.x1 += 2;
+//            sw_area.x2 = sw_area.x1 + 16;
+//        }
+//        sw_area.y1 += 2;
+//        sw_area.y2 -= 2;
+//        lv_draw_rect(&sw_area, dsc->clip_area, &rect_dsc);
+//    }
+//}
 //----------------------------------------
 
 static void change_event_cb(lv_event_t* e)
@@ -154,7 +150,7 @@ static void change_event_cb(lv_event_t* e)
     lv_obj_t* obj = lv_event_get_target(e);
     uint16_t col;
     uint16_t row;
-    void (*fncPtr)(void);
+  //  void (*fncPtr)(void);
     lv_table_get_selected_cell(obj, &row, &col);
     switch (currentMenu[row + 1].menuItemType ) {
     case  MENU_ITEM_TYPE_SUB_MENU:
@@ -165,8 +161,10 @@ static void change_event_cb(lv_event_t* e)
     case  MENU_ITEM_TYPE_INFO_VERSION:
        /* fncPtr = (void (*)(void))currentMenu[row + 1].menuItemPntr;
         (*fncPtr)();*/
-        displayInfo();
+        frmInfo_init();
         break;
+
+
     default:
         break;
     }
@@ -186,7 +184,7 @@ static void menuDraw(lv_obj_t* win) {
    /* lv_mem_monitor_t mon1;
     lv_mem_monitor(&mon1);*/
 
-    uint32_t t = lv_tick_get();
+  //  uint32_t t = lv_tick_get();
     lv_obj_t* wcont = lv_win_get_content(win);  /*used to add content to the window*/
     lv_obj_clean(wcont);
     lv_obj_set_style_pad_top(wcont, 10, LV_PART_MAIN);
@@ -214,7 +212,7 @@ static void menuDraw(lv_obj_t* win) {
 
     /*Don't make the cell pressed, we will draw something different in the event*/
    // lv_obj_remove_style(menuList, NULL, LV_PART_ITEMS | LV_STATE_PRESSED);
-    menuItem_t* menuToDraw = currentMenu;
+    const menuItem_t* menuToDraw = currentMenu;
     int row = 0;
     while (menuToDraw->menuItemType != MENU_ITEM_TYPE_END_OF_MENU) {
       if (menuToDraw->menuItemType == MENU_ITEM_TYPE_MENU_HEADER) {
