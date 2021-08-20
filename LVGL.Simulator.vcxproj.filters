@@ -1506,6 +1506,9 @@
     <ClCompile Include="app\text_table.c" />
     <ClCompile Include="app\menuStruct.c" />
     <ClCompile Include="app\menu.c" />
+    <ClCompile Include="app\frmInfo.c" />
+    <ClCompile Include="app\wifi_cfg.c" />
+    <ClCompile Include="app\ethernet_cfg.c" />
   </ItemGroup>
   <ItemGroup>
     <None Include="lvgl\.github\ISSUE_TEMPLATE\bug-report.md">

@@ -161,12 +161,15 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="app\dataStorage.c" />
+    <ClCompile Include="app\ethernet_cfg.c" />
+    <ClCompile Include="app\frmInfo.c" />
     <ClCompile Include="app\frmProcess.c" />
     <ClCompile Include="app\counter_conf.c" />
     <ClCompile Include="app\menu.c" />
     <ClCompile Include="app\menuStruct.c" />
     <ClCompile Include="app\text_table.c" />
     <ClCompile Include="app\ui_common.c" />
+    <ClCompile Include="app\wifi_cfg.c" />
     <ClCompile Include="lvgl\examples\anim\lv_example_anim_1.c" />
     <ClCompile Include="lvgl\examples\anim\lv_example_anim_2.c" />
     <ClCompile Include="lvgl\examples\assets\animimg001.c" />
