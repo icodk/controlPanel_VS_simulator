@@ -14,6 +14,7 @@ static lv_style_t style_label;
 static const lv_font_t* font_large;
 static const lv_font_t* font_normal;
 static lv_obj_t* win = NULL;
+static lv_obj_t* win_title = NULL;
 static lv_timer_t* updateTimer = NULL;
 
 
@@ -82,10 +83,17 @@ static void init_common_styles(void) {
     font_normal = LV_FONT_DEFAULT;
 }
 //----------------------------------------------
+lv_obj_t** get_main_win_title(void) {
+
+    return &win_title;
+}
+
+//----------------------------------------------
 lv_obj_t* get_main_win(void) {
 
     return win;
 }
+
 //----------------------------------------------
 void ui_common_init(void) {
     win= lv_win_create(lv_scr_act(), 30);

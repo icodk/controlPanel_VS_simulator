@@ -49,7 +49,7 @@ typedef enum {
     CV_A03_WETTING_CH1,	//  	7
     CV_A03_WETTING_CH2,	//  	8
     CV_A11_DUST_MANUAL_
-} ctl_param_t;
+} ctl_param_id_t;
 
 
 void loadSettings(void);

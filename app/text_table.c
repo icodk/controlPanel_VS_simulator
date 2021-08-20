@@ -10,6 +10,7 @@
 *      INCLUDES
 *********************/
 #include <stdint.h>
+
 #include "text_table.h"
 
 

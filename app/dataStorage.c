@@ -24,6 +24,17 @@ static int32_t  ctl_param_table[] = {
 
 
 //---------------------------------
+static void saveNumParamsToNVM(void) {
+
+
+
+}
+static void loadNumParamsFromoNVM(void) {
+
+
+
+}
+ //----------------------------------
 
 
 void loadSettings(void) {
@@ -91,12 +102,6 @@ void loadSettings(void) {
 
 
 }
-
-
-                                                         
-
-
-
 //----------------------------------
 counter_t* get_counter(counter_id_t cntId) {
 
@@ -108,5 +113,19 @@ int32_t* get_current_count(counter_id_t cntId) {
     return &current_count[cntId];
 }
 //----------------------------------
+void set_numericParam(ctl_param_id_t paramId, int32_t paramVal) {
+
+    if (ctl_param_table[paramId] == paramVal) {
+        return;
+    }
+    ctl_param_table[paramId] = paramVal;
+    saveNumParamsToNVM();
+
+}
 //----------------------------------
+int32_t  get_numericParam(ctl_param_id_t paramId) {
+
+    return ctl_param_table[paramId];
+}
+
 //----------------------------------
