@@ -14,11 +14,24 @@
 #include "ui_common.h"
 #include "text_table.h"
 
+
+void wifi_AP_cfg_init(void) {
+
+
+}
+
+void wifi_ST_cfg_init(void) {
+
+
+}
+
+
 bool isWifisupported(void) {
-    return false;
+    return true;
 }
 
 void wifi_cfg_init(void) {
 
+printf("Wifi_cfg_init()\n");
 
 }

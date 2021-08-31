@@ -26,6 +26,7 @@
   <ItemGroup>
     <ClInclude Include="app\dataStorage.h" />
     <ClInclude Include="app\menu.h" />
+    <ClInclude Include="app\network.h" />
     <ClInclude Include="app\text_table.h" />
     <ClInclude Include="app\ui_common.h" />
     <ClInclude Include="lvgl\examples\anim\lv_example_anim.h" />
