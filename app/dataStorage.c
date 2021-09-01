@@ -13,7 +13,7 @@ static int32_t current_count[COUNTER_COUNT];
 
 
 
-#ifdef __GNUC__                            
+                      
 
 static network_settings_t network_settings={.wifi_settings={.sta_enable=false,
 															.ap_enable=false,
@@ -23,7 +23,7 @@ static network_settings_t network_settings={.wifi_settings={.sta_enable=false,
 															}
 
 											};
-
+#ifdef __GNUC__      
 static const char * STORAGE_NAMESPACE= "storage";
 static const char * STORAGE_KEY_COUNTERS= "counters";
 static const char * STORAGE_KEY_NETWORK= "network";

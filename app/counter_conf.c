@@ -22,6 +22,7 @@ static bool toSave;
 //}
 //
 
+
 //----------------------------------------------
 // 
 //
@@ -98,9 +99,10 @@ static void ta_event_cb(lv_event_t * e)
 static void home_btn_event_handler(lv_event_t* e) {
 
     if (toSave) {
-        saveSettings();
+    	saveCounterSettings();
+    	 toSave = false;
     }
-    toSave = false;
+
     lv_timer_t** tmr = get_updateTimer();
     lv_timer_set_repeat_count(*tmr, 0);
     frmProcess_init();
