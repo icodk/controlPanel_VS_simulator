@@ -33,6 +33,22 @@ typedef struct _COUNTER{
 
 } counter_t;
 
+typedef struct _WIFI_SETTINGS{
+	bool sta_enable;	// connect to an AP
+	bool ap_enable;	// enable an  AP on this board
+	char remote_ap_name[32]; 		// name of AP to connect to
+	char local_ap_name[32];	  	//  name of local AP
+	bool sta_static_ip;	  // sta should have static IP
+
+}wifi_settings_t;
+
+
+typedef struct _NETWORK_SETTINGS{
+
+	wifi_settings_t wifi_settings;
+
+
+}network_settings_t;
 
 
 typedef enum {
@@ -49,10 +65,12 @@ typedef enum {
     CV_A03_WETTING_CH1,	//  	7
     CV_A03_WETTING_CH2,	//  	8
     CV_A11_DUST_MANUAL_
-} ctl_param_id_t;
+} ctl_param_t;
 
 
 void loadSettings(void);
-void saveSettings(void);
+void saveCounterSettings(void);
 counter_t* get_counter(counter_id_t regId);
 int32_t* get_current_count(counter_id_t regNdx);
+
+wifi_settings_t * get_wifi_settings(void);
