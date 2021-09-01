@@ -1510,6 +1510,7 @@
     <ClCompile Include="app\frmInfo.c" />
     <ClCompile Include="app\wifi_cfg.c" />
     <ClCompile Include="app\ethernet_cfg.c" />
+    <ClCompile Include="app\frmNetwork.c" />
   </ItemGroup>
   <ItemGroup>
     <None Include="lvgl\.github\ISSUE_TEMPLATE\bug-report.md">

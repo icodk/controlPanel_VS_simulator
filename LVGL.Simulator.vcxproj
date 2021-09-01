@@ -166,6 +166,7 @@
     <ClCompile Include="app\frmInfo.c" />
     <ClCompile Include="app\frmProcess.c" />
     <ClCompile Include="app\counter_conf.c" />
+    <ClCompile Include="app\frmNetwork.c" />
     <ClCompile Include="app\menu.c" />
     <ClCompile Include="app\menuStruct.c" />
     <ClCompile Include="app\text_table.c" />
