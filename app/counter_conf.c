@@ -98,6 +98,7 @@ static void ta_event_cb(lv_event_t * e)
 
 static void home_btn_event_handler(lv_event_t* e) {
 
+    (void)e;   //ignore e
     if (toSave) {
     	saveCounterSettings();
     	 toSave = false;
@@ -161,7 +162,7 @@ static void     updateFrmConfig(void) {
 
 static void timer_cb(lv_timer_t* timer)
 {
-
+    (void)timer;   //ignore timer
     updateFrmConfig();
     LV_LOG_USER("Timer was called ");
 }
