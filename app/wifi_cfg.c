@@ -35,3 +35,8 @@ void wifi_cfg_init(void) {
 printf("Wifi_cfg_init()\n");
 
 }
+
+void wifi_scan_init(lv_obj_t* list) {
+    lv_dropdown_set_options(list, "kuku\n");
+
+}

@@ -21,8 +21,8 @@ static int32_t current_count[COUNTER_COUNT];
 static network_settings_t network_settings={.sta_enable=true,
 											.ap_enable=false,
                                             .eth_enable = false,
-											.remote_ap_name[0]=0,
-											.local_ap_name[0]=0,
+											.remote_ssid_name[0]=0,
+											.local_ssid_name[0]=0,
 											.sta_static_ip=false
 											};
 #ifdef __GNUC__      

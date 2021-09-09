@@ -34,12 +34,17 @@ typedef struct _COUNTER{
 } counter_t;
 
 typedef struct _NETWORK_SETTINGS{
-	bool sta_enable;	// connect to an AP
-	bool ap_enable;	// enable an  AP on this board
+    bool sta_enable;	// connect to an AP
+    bool ap_enable;	// enable an  AP on this board
     bool eth_enable;	// enable ethernet
-	char remote_ap_name[32]; 		// name of AP to connect to
-	char local_ap_name[32];	  	//  name of local AP
-	bool sta_static_ip;	  // sta should have static IP
+    uint8_t remote_ssid_name[32]; 		// name of AP to connect to
+    uint8_t remote_ssid_pass[64]; 		// pass of AP to connect to
+    uint8_t local_ssid_name[32];	  	//  name of local AP
+    uint8_t local_ssid_pass[64];	  	//  pass of local AP
+    bool use_sta_static_ip;	  // sta should have static IP
+    uint32_t	sta_static_ip;
+    uint32_t	sta_DGW_ip;
+    uint32_t	sta_netmask;
 
 }network_settings_t;
 
