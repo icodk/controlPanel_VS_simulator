@@ -19,6 +19,8 @@ extern bool isEthernetSupported(void);
 extern void wifi_scan_init(lv_obj_t* list);
 static bool toSave;
 static lv_obj_t* kb;
+
+
 //----------------------------------------------
 static void home_btn_event_handler(lv_event_t* e) {
     (void)e; //ignore
@@ -37,7 +39,7 @@ static void ta_event_cb(lv_event_t* e)
     char* field = lv_event_get_user_data(e);
     lv_obj_t* win = get_main_win();
     buf[0] = 0;
-    if (code == LV_EVENT_FOCUSED) {
+    if ((code == LV_EVENT_FOCUSED)) {
         if (lv_indev_get_type(lv_indev_get_act()) != LV_INDEV_TYPE_KEYPAD) {
             kb = lv_keyboard_create(lv_scr_act());
             lv_keyboard_set_mode(kb, LV_KEYBOARD_MODE_TEXT_LOWER);
@@ -64,9 +66,10 @@ static void ta_event_cb(lv_event_t* e)
             kb = NULL;
         }
         lv_obj_clear_state(ta, LV_STATE_FOCUSED);
+        lv_indev_reset(NULL, ta);
         //---- save the values to the fields
         //const char* txt = lv_textarea_get_text(ta);
-        lv_memcpy(field, lv_textarea_get_text(ta), strlen(lv_textarea_get_text(ta)));
+        lv_memcpy(field, lv_textarea_get_text(ta),1+strlen(lv_textarea_get_text(ta)));
        // *field= lv_textarea_get_text(ta);
 
         //*field = (int32_t)atoi(txt);
@@ -96,11 +99,34 @@ static void ta_event_cb(lv_event_t* e)
 
 //--------------------------------------------------
 
+
+//static void timer_cb(lv_timer_t* timer) {
+//
+//    lv_dropdown_close(timer->user_data);
+//    lv_timer_set_repeat_count(timer, 0); // delete the timer, 
+//}
+//--------------------------------------------------
+
 static void ap_list_event_handler(lv_event_t* e) {
     //lv_event_code_t code = lv_event_get_code(e);
     LV_LOG_USER("DD event %d ", e->code);
+    
     lv_obj_t* list = lv_event_get_target(e);
     if (e->code == LV_EVENT_PRESSED) {
+        /*static bool busy = false;
+        if (busy) {
+            busy = false;
+            return;
+        }
+        busy = true;*/
+        //lv_obj_add_flag(list, LV_OBJ_FLAG_HIDDEN);  // disable click
+       // lv_obj_clear_flag(list, LV_OBJ_FLAG_CLICK_FOCUSABLE);  // disable click
+       // lv_event_send(list, LV_EVENT_PRESSED, 0);
+        //lv_dropdown_open(list);
+       //lv_async_call(close_list,list);
+        //lv_timer_t** tmr = get_updateTimer();
+        //*tmr = lv_timer_create(timer_cb, 1, list);
+
         wifi_scan_init(list);
     }
     
@@ -132,7 +158,11 @@ static void fill_STA_tab(lv_obj_t* tab, network_settings_t* netSet) {
     lv_dropdown_set_dir(dd, LV_DIR_RIGHT);
    // lv_dropdown_set_symbol(dd, LV_SYMBOL_DOWN);
     lv_obj_align(dd, LV_ALIGN_TOP_LEFT, 0, 25);
-    lv_obj_add_event_cb(dd, ap_list_event_handler, LV_EVENT_PRESSED, NULL);
+    lv_obj_add_event_cb(dd, ap_list_event_handler, LV_EVENT_ALL, NULL);
+    //lv_obj_clear_flag(dd, LV_OBJ_FLAG_CLICK_FOCUSABLE);  // disable click
+    
+
+
 
     //---- password field
     // label the field
@@ -197,9 +227,9 @@ void frmNetwork_init(void) {
     lv_checkbox_set_text(cb, get_text(T_ENABLE_STA));
     if (netSet->sta_enable) {
         lv_obj_add_state(cb, LV_STATE_CHECKED);
-        fill_STA_tab(tab_wifi_STA,netSet);
     }
-   // lv_obj_add_event_cb(cb, enable_event_handler, LV_EVENT_VALUE_CHANGED, (void *)&netSet->sta_enable);
+    fill_STA_tab(tab_wifi_STA,netSet);
+    lv_obj_add_event_cb(cb, enable_event_handler, LV_EVENT_VALUE_CHANGED, (void *)&netSet->sta_enable);
     //------
 
     //lv_obj_t* label = lv_label_create(tabWifiSTA);
