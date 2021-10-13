@@ -1499,7 +1499,7 @@
       <Filter>lvgl\tests</Filter>
     </ClCompile>
     <ClCompile Include="app\dataStorage.c" />
-    <ClCompile Include="app\frmProcess.c" />
+    <ClCompile Include="app\frmCounters.c" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="lvgl\src\font\DSEG7_classic_bold_25.c" />
     <ClCompile Include="app\counter_conf.c" />
