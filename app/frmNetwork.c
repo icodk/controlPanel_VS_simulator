@@ -14,7 +14,7 @@
 #include "ui_common.h"
 #include "text_table.h"
 /*-------------------------------------------------*/
-extern void  frmProcess_init(void);
+//extern void  frmCounterProcess_init(void);
 extern bool isEthernetSupported(void);
 extern void wifi_scan_init(lv_obj_t* list);
 static bool toSave;
@@ -25,7 +25,8 @@ static lv_obj_t* kb;
 static void home_btn_event_handler(lv_event_t* e) {
     (void)e; //ignore
     
-    frmProcess_init();
+    //frmCounterProcess_init();
+    (*get_main_frm_init())();
 }
 
 

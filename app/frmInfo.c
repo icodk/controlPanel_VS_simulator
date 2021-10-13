@@ -1,4 +1,4 @@
-/*
+﻿/*
  * frmInfo.c
  *
  *  Created on: 19. aug. 2021
@@ -13,11 +13,12 @@
 #include "ui_common.h"
 #include "text_table.h"
 /*-------------------------------------------------*/
-extern void  frmProcess_init(void);
+//extern void  frmCounterProcess_init(void);
 
 
 static void home_btn_event_handler(lv_event_t* e) {
-    frmProcess_init();
+    //frmCounterProcess_init();
+    (*get_main_frm_init())();
 }
 
 

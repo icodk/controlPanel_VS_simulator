@@ -27,13 +27,20 @@
 #include "lv_drivers/win32drv/win32drv.h"
 #include "app/text_table.h"
 
+
+
 #ifdef __cplusplus
 extern "C" {
 
-    void  frmProcess(void);
-    void  frmProcess_init(void);
+    void  frmCounterProcess(void);
+    void  frmOvenProcess(void);
+    void  frmOvenControl_init(void);
+    void  frmCounterProcess_init(void);
+    
     void  loadSettings(void);
     void  ui_common_init(void);
+    void ui_set_main_frm_init(void (*fncptr)(void));
+
 }
 
 #endif
@@ -79,7 +86,11 @@ int main()
 
     ui_common_init();
     load_language();
-    frmProcess_init();
+    frmCounterProcess_init();
+    ui_set_main_frm_init(frmCounterProcess_init);
+
+    //frmOvenControl_init();
+    //ui_set_main_frm_init(frmOvenControl_init);
 
 
 

@@ -1511,6 +1511,7 @@
     <ClCompile Include="app\wifi_cfg.c" />
     <ClCompile Include="app\ethernet_cfg.c" />
     <ClCompile Include="app\frmNetwork.c" />
+    <ClCompile Include="app\frmOvenControl.c" />
   </ItemGroup>
   <ItemGroup>
     <None Include="lvgl\.github\ISSUE_TEMPLATE\bug-report.md">

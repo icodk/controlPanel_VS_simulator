@@ -17,7 +17,7 @@ Date: 2021-08-08
 #define HEADER_PADDING_HEIGHT   10
 #define HEADER_BTN_WIDTH   40
 //----------------------------------------
- extern void  frmProcess_init(void);
+// extern void  frmCounterProcess_init(void);
  extern void frmInfo_init(void);
  extern void frmNetwork_init(void);
 
@@ -51,7 +51,8 @@ static void home_btn_event_handler(lv_event_t* e)
 {
    // lv_obj_t* obj = lv_event_get_target(e);
     LV_LOG_USER("Event code %d", e->code);
-    frmProcess_init();
+    //frmCounterProcess_init();
+    (*get_main_frm_init())();
     //resetMsgBox();
 
 }
